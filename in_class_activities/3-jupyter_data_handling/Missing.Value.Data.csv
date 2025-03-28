@@ -1,0 +1,29 @@
+S.No,Customer.ID,Customer.Name,Customer.Age,Date,Product.Bought,Quantity,Sales
+1,100,Ahmed,23,12/10/2019,Water Bottle,2,945
+2,101,Ahmed,23,13/10/2019,Power Switch,1,324
+3,102,Saim,16,14/10/2019,Fridge,1,45000
+4,103,Farhan,34,15/10/2019,Mobile,1,33000
+5,104,Imran,45,16/10/2019,Table,,17900
+6,105,Farrukh,56,17/10/2019,Stickers,2,24
+7,106,Bismah,33,18/10/2019,Stickers,,
+8,107,Ayesha,31,19/10/2019,Water Bottle,1,
+9,108,Areeba,27,20/10/2019,Milk,2,453
+10,109,Hashir,78,21/10/2019,Milk,2,433
+11,110,Qasim,86,22/10/2019,Fruits,0,762
+12,111,Fatima,41,23/10/2019,Power Switch,3,1390
+13,112,Junaid,22,24/10/2019,Fruits,3,
+14,113,Ismail,21,25/10/2019,Fruits,2,
+15,114,Ibraheem,20,26/10/2019,Laptop,1,42222
+16,115,Farhan,34,27/10/2019,Laptop,,
+17,116,Areeba,,28/10/2019,,2,4232
+18,102,Saim,,29/10/2019,Water Bottle,1,111
+19,102,Saim,,30/10/2019,,5,10003
+20,119,,,31/10/2019,Clothes,2,4000
+21,,,23,01/11/2019,,1,671
+22,121,Ismail,29,02/11/2019,Table,,18000
+23,122,Ahmed,43,03/11/2019,Clothes,2,3210
+24,123,Farhan,33,04/11/2019,Power Switch,,
+25,124,Amjad,11,05/11/2019,Mobile,,9000
+26,125,Farrukh,32,06/11/2019,Clothes,1,
+27,126,Hashir,78,07/11/2019,Water Bottle,2,1032
+28,127,Qasim,86,08/11/2019,Rug,2,3400

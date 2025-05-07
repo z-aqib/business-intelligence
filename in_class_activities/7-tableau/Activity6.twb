@@ -25,7 +25,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Train' name='textscan.1yvwudg1kfcmpe11tmkeu02fgew2'>
-            <connection class='textscan' directory='C:/Users/DELL/Downloads/archive' filename='Train.csv' password='' server='' />
+            <connection class='textscan' directory='D:/Users/DELL/OneDrive - Institute of Business Administration/IBA/sem6/bi/activities/in_class_activities/7-tableau/data_activity' filename='Train.csv' password='' server='' />
           </named-connection>
         </named-connections>
         <relation connection='textscan.1yvwudg1kfcmpe11tmkeu02fgew2' name='Train.csv' table='[Train#csv]' type='table'>
@@ -743,8 +743,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='2100' minheight='2100' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='21' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='20' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='23' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='22' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone fixed-size='266' h='33250' id='10' is-fixed='true' name='Sheet 5' w='33300' x='900' y='750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1203,9 +1203,6 @@
         </viewpoint>
         <viewpoint name='Sheet 7'>
           <zoom type='entire-view' />
-          <highlight field='[federated.0syx1yi01l0ky9158wzp51qikcgm].[sum:Reached.on.Time_Y.N:qk]' type='size'>
-            <bucket-selection />
-          </highlight>
         </viewpoint>
         <viewpoint name='Sheet 9' />
       </viewpoints>
@@ -1214,7 +1211,7 @@
     </window>
     <window class='dashboard' maximized='true' name='Story 1'>
       <viewpoints />
-      <active id='5' />
+      <active id='4' />
       <simple-id uuid='{4B6253F6-40E6-4EF7-A1B6-B03010358A6E}' />
     </window>
     <window class='dashboard' name='Story 2'>

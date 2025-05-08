@@ -8,3 +8,4 @@ the cleaned dataset was saved as `student_performance_cleaned.csv`
 ## dashboard
 
 ## report
+report link: https://docs.google.com/document/d/1FjXZLbp1wbeNBilX5YlaWi-NM-2yyutUx_6v2sWytIo/edit?usp=sharing

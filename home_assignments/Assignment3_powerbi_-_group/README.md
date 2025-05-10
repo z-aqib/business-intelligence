@@ -6,6 +6,7 @@ so first we selected the dataset from kaggle, url(https://www.kaggle.com/dataset
 the cleaned dataset was saved as `student_performance_cleaned.csv`
 
 ## dashboard
+then kisa sent in her dashboard and I had already made some. I will then merge her and my dashboard together
 
 ## report
 report link: https://docs.google.com/document/d/1FjXZLbp1wbeNBilX5YlaWi-NM-2yyutUx_6v2sWytIo/edit?usp=sharing

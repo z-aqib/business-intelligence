@@ -124,3 +124,12 @@ cancel_map = {
 }
 ```
 - converted to string datatype
+
+## 24. DEP_TIME_BLK
+- dropped as same to `SCHEDULED_DEP_HOUR`
+
+## 25. TAXI_OUT
+- filled missing values: all are cancelled flights,
+    - filled -1 to signify time that it was cancelled in the columns: '`TAXI_OUT`', '`TAXI_IN`', '`WHEELS_OFF`', '`WHEELS_ON`', '`ARR_TIME`', '`ARR_DELAY_NEW`', '`CARRIER_DELAY`', '`WEATHER_DELAY`', '`NAS_DELAY`', '`SECURITY_DELAY`', '`LATE_AIRCRAFT_DELAY`'
+    - filled 0 to signify time taken that it was cancelled in the columns: '`ACTUAL_ELAPSED_TIME`', '`AIR_TIME`'
+- converted from float to integer

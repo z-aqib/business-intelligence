@@ -133,3 +133,23 @@ cancel_map = {
     - filled -1 to signify time that it was cancelled in the columns: '`TAXI_OUT`', '`TAXI_IN`', '`WHEELS_OFF`', '`WHEELS_ON`', '`ARR_TIME`', '`ARR_DELAY_NEW`', '`CARRIER_DELAY`', '`WEATHER_DELAY`', '`NAS_DELAY`', '`SECURITY_DELAY`', '`LATE_AIRCRAFT_DELAY`'
     - filled 0 to signify time taken that it was cancelled in the columns: '`ACTUAL_ELAPSED_TIME`', '`AIR_TIME`'
 - converted from float to integer
+
+## 43. CARRIER_DELAY
+- filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
+- converted to int
+
+## 44. WEATHER_DELAY
+- filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
+- converted to int
+
+## 45. NAS_DELAY
+- filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
+- converted to int
+
+## 46. SECURITY_DELAY
+- filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
+- converted to int
+
+## 47. LATE_AIRCRAFT_DELAY
+- filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
+- converted to int

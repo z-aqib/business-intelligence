@@ -99,3 +99,28 @@ cancel_map = {
 ```
 - datatype to string
 - renamed col to `DEP_DELAY_15_MIN`
+
+## 23. DEP_DELAY_GROUP
+- filled missing values: cancelled flights were missing, filled with 9999 as -2 to 12 was taken.
+- mapped the column:
+```
+cancel_map = {
+    -2.0: '15-30 min early',
+    -1.0: '0-15 min early',
+    0.0: '0-15 min late', 
+    1.0: '15-30 min late', 
+    2.0: '30-45 min late', 
+    3.0: '45-60 min late', 
+    4.0: '60-75 min late', 
+    5.0: '75-90 min late', 
+    6.0: '90-105 min late', 
+    7.0: '105-120 min late', 
+    8.0: '120-135 min late', 
+    9.0: '135-150 min late', 
+    10.0: '150-165 min late', 
+    11.0: '165-180 min late', 
+    12.0: '180-195 min late',
+    9999.0: 'Cancelled'
+}
+```
+- converted to string datatype

@@ -87,3 +87,15 @@ no change
 - dropped as its the same thing as `DEP_DELAY` but with a filter for less than 0 values.
 
 ## 22. DEP_DEL15
+- filled missing values: cancelled flights were missing - filled with -1 as 0 indicated less than 15 min and 1 indicated more than 15min. so -1 indicates cancelled.
+    - then extracted overall all cancelled flights and some flights had taken off but were cancelled, so they had `dep_delay` values, so put all their values as -1
+- mapped the column to 
+```
+cancel_map = {
+    0.0: 'Less than 15',
+    1.0: 'Greater than 15',
+    -1.0: 'Cancelled'
+}
+```
+- datatype to string
+- renamed col to `DEP_DELAY_15_MIN`

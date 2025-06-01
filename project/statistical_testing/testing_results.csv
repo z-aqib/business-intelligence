@@ -1,0 +1,777 @@
+Column A,Column B,Test,Result,Inference
+MONTH,,Shapiro-Wilk,"statistic=0.8936, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+DAY_OF_MONTH,,Shapiro-Wilk,"statistic=0.9534, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+DAY_OF_WEEK,,Shapiro-Wilk,"statistic=0.9193, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+MARKETING_FLIGHT_NUMBER,,Shapiro-Wilk,"statistic=0.9373, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+SCHEDULED_DEP_TIME,,Shapiro-Wilk,"statistic=0.9704, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+SCHEDULED_DEP_HOUR,,Shapiro-Wilk,"statistic=0.9663, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ACTUAL_DEP_TIME,,Shapiro-Wilk,"statistic=0.9569, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ACTUAL_DEP_HOUR,,Shapiro-Wilk,"statistic=0.9513, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+DEP_DELAY,,Shapiro-Wilk,"statistic=0.3628, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ORIGIN_TAXI_TIME,,Shapiro-Wilk,"statistic=0.8918, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+DEP_TAKEOFF_TIME,,Shapiro-Wilk,"statistic=0.9547, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ARR_LANDING_TIME,,Shapiro-Wilk,"statistic=0.9359, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+DEST_TAXI_TIME,,Shapiro-Wilk,"statistic=0.7461, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+SCHEDULED_ARR_TIME,,Shapiro-Wilk,"statistic=0.9731, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+SCHEDULED_ARR_HOUR,,Shapiro-Wilk,"statistic=0.9691, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ACTUAL_ARR_TIME,,Shapiro-Wilk,"statistic=0.9337, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ACTUAL_ARR_HOUR,,Shapiro-Wilk,"statistic=0.9279, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ARR_DELAY,,Shapiro-Wilk,"statistic=0.3654, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+CANCELLED,,Shapiro-Wilk,"statistic=0.3585, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+SCHEDULED_ELAPSED_TIME,,Shapiro-Wilk,"statistic=0.8729, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+ACTUAL_ELAPSED_TIME,,Shapiro-Wilk,"statistic=0.9280, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+IN_AIR_DURATION,,Shapiro-Wilk,"statistic=0.9037, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+DISTANCE,,Shapiro-Wilk,"statistic=0.8585, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+CARRIER_DELAY,,Shapiro-Wilk,"statistic=0.0826, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+WEATHER_DELAY,,Shapiro-Wilk,"statistic=0.0293, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+NAS_DELAY,,Shapiro-Wilk,"statistic=0.0853, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+SECURITY_DELAY,,Shapiro-Wilk,"statistic=0.2929, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+LATE_AIRCRAFT_DELAY,,Shapiro-Wilk,"statistic=0.0928, p=0.0000, n=5000 (used random subsample of 5000/2745847)",Not normally distributed
+MONTH,,Z-Score Outlier,num_outliers=0,No significant outliers
+DAY_OF_MONTH,,Z-Score Outlier,num_outliers=0,No significant outliers
+DAY_OF_WEEK,,Z-Score Outlier,num_outliers=0,No significant outliers
+MARKETING_FLIGHT_NUMBER,,Z-Score Outlier,num_outliers=70,70 outlier(s) present
+SCHEDULED_DEP_TIME,,Z-Score Outlier,num_outliers=0,No significant outliers
+SCHEDULED_DEP_HOUR,,Z-Score Outlier,num_outliers=0,No significant outliers
+ACTUAL_DEP_TIME,,Z-Score Outlier,num_outliers=0,No significant outliers
+ACTUAL_DEP_HOUR,,Z-Score Outlier,num_outliers=0,No significant outliers
+DEP_DELAY,,Z-Score Outlier,num_outliers=0,No significant outliers
+ORIGIN_TAXI_TIME,,Z-Score Outlier,num_outliers=42424,42424 outlier(s) present
+DEP_TAKEOFF_TIME,,Z-Score Outlier,num_outliers=0,No significant outliers
+ARR_LANDING_TIME,,Z-Score Outlier,num_outliers=0,No significant outliers
+DEST_TAXI_TIME,,Z-Score Outlier,num_outliers=49151,49151 outlier(s) present
+SCHEDULED_ARR_TIME,,Z-Score Outlier,num_outliers=0,No significant outliers
+SCHEDULED_ARR_HOUR,,Z-Score Outlier,num_outliers=0,No significant outliers
+ACTUAL_ARR_TIME,,Z-Score Outlier,num_outliers=0,No significant outliers
+ACTUAL_ARR_HOUR,,Z-Score Outlier,num_outliers=0,No significant outliers
+ARR_DELAY,,Z-Score Outlier,num_outliers=0,No significant outliers
+CANCELLED,,Z-Score Outlier,num_outliers=0,No significant outliers
+SCHEDULED_ELAPSED_TIME,,Z-Score Outlier,num_outliers=50107,50107 outlier(s) present
+ACTUAL_ELAPSED_TIME,,Z-Score Outlier,num_outliers=35131,35131 outlier(s) present
+IN_AIR_DURATION,,Z-Score Outlier,num_outliers=42697,42697 outlier(s) present
+DISTANCE,,Z-Score Outlier,num_outliers=57629,57629 outlier(s) present
+CARRIER_DELAY,,Z-Score Outlier,num_outliers=22314,22314 outlier(s) present
+WEATHER_DELAY,,Z-Score Outlier,num_outliers=7782,7782 outlier(s) present
+NAS_DELAY,,Z-Score Outlier,num_outliers=28498,28498 outlier(s) present
+SECURITY_DELAY,,Z-Score Outlier,num_outliers=893,893 outlier(s) present
+LATE_AIRCRAFT_DELAY,,Z-Score Outlier,num_outliers=33029,33029 outlier(s) present
+MONTH,DAY_OF_MONTH,Pearson Correlation,r=-0.0150,Weak correlation
+MONTH,DAY_OF_WEEK,Pearson Correlation,r=0.0051,Weak correlation
+MONTH,MARKETING_FLIGHT_NUMBER,Pearson Correlation,r=-0.0378,Weak correlation
+MONTH,SCHEDULED_DEP_TIME,Pearson Correlation,r=-0.0213,Weak correlation
+MONTH,SCHEDULED_DEP_HOUR,Pearson Correlation,r=-0.0206,Weak correlation
+MONTH,ACTUAL_DEP_TIME,Pearson Correlation,r=-0.1217,Weak correlation
+MONTH,ACTUAL_DEP_HOUR,Pearson Correlation,r=-0.1240,Weak correlation
+MONTH,DEP_DELAY,Pearson Correlation,r=0.1524,Weak correlation
+MONTH,ORIGIN_TAXI_TIME,Pearson Correlation,r=-0.2468,Weak correlation
+MONTH,DEP_TAKEOFF_TIME,Pearson Correlation,r=-0.1247,Weak correlation
+MONTH,ARR_LANDING_TIME,Pearson Correlation,r=-0.1056,Weak correlation
+MONTH,DEST_TAXI_TIME,Pearson Correlation,r=-0.1745,Weak correlation
+MONTH,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.0002,Weak correlation
+MONTH,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.0007,Weak correlation
+MONTH,ACTUAL_ARR_TIME,Pearson Correlation,r=-0.1031,Weak correlation
+MONTH,ACTUAL_ARR_HOUR,Pearson Correlation,r=-0.1056,Weak correlation
+MONTH,ARR_DELAY,Pearson Correlation,r=0.1513,Weak correlation
+MONTH,CANCELLED,Pearson Correlation,r=0.1528,Weak correlation
+MONTH,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0693,Weak correlation
+MONTH,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.1401,Weak correlation
+MONTH,IN_AIR_DURATION,Pearson Correlation,r=-0.1032,Weak correlation
+MONTH,DISTANCE,Pearson Correlation,r=-0.0295,Weak correlation
+MONTH,CARRIER_DELAY,Pearson Correlation,r=-0.0324,Weak correlation
+MONTH,WEATHER_DELAY,Pearson Correlation,r=-0.0189,Weak correlation
+MONTH,NAS_DELAY,Pearson Correlation,r=-0.0592,Weak correlation
+MONTH,SECURITY_DELAY,Pearson Correlation,r=-0.0429,Weak correlation
+MONTH,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0598,Weak correlation
+DAY_OF_MONTH,DAY_OF_WEEK,Pearson Correlation,r=-0.0147,Weak correlation
+DAY_OF_MONTH,MARKETING_FLIGHT_NUMBER,Pearson Correlation,r=-0.0065,Weak correlation
+DAY_OF_MONTH,SCHEDULED_DEP_TIME,Pearson Correlation,r=-0.0023,Weak correlation
+DAY_OF_MONTH,SCHEDULED_DEP_HOUR,Pearson Correlation,r=-0.0023,Weak correlation
+DAY_OF_MONTH,ACTUAL_DEP_TIME,Pearson Correlation,r=-0.0618,Weak correlation
+DAY_OF_MONTH,ACTUAL_DEP_HOUR,Pearson Correlation,r=-0.0633,Weak correlation
+DAY_OF_MONTH,DEP_DELAY,Pearson Correlation,r=0.0883,Weak correlation
+DAY_OF_MONTH,ORIGIN_TAXI_TIME,Pearson Correlation,r=-0.0644,Weak correlation
+DAY_OF_MONTH,DEP_TAKEOFF_TIME,Pearson Correlation,r=-0.0623,Weak correlation
+DAY_OF_MONTH,ARR_LANDING_TIME,Pearson Correlation,r=-0.0600,Weak correlation
+DAY_OF_MONTH,DEST_TAXI_TIME,Pearson Correlation,r=-0.0550,Weak correlation
+DAY_OF_MONTH,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.0005,Weak correlation
+DAY_OF_MONTH,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.0005,Weak correlation
+DAY_OF_MONTH,ACTUAL_ARR_TIME,Pearson Correlation,r=-0.0594,Weak correlation
+DAY_OF_MONTH,ACTUAL_ARR_HOUR,Pearson Correlation,r=-0.0609,Weak correlation
+DAY_OF_MONTH,ARR_DELAY,Pearson Correlation,r=0.0880,Weak correlation
+DAY_OF_MONTH,CANCELLED,Pearson Correlation,r=0.0885,Weak correlation
+DAY_OF_MONTH,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0059,Weak correlation
+DAY_OF_MONTH,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.0573,Weak correlation
+DAY_OF_MONTH,IN_AIR_DURATION,Pearson Correlation,r=-0.0487,Weak correlation
+DAY_OF_MONTH,DISTANCE,Pearson Correlation,r=-0.0032,Weak correlation
+DAY_OF_MONTH,CARRIER_DELAY,Pearson Correlation,r=-0.0116,Weak correlation
+DAY_OF_MONTH,WEATHER_DELAY,Pearson Correlation,r=-0.0066,Weak correlation
+DAY_OF_MONTH,NAS_DELAY,Pearson Correlation,r=-0.0225,Weak correlation
+DAY_OF_MONTH,SECURITY_DELAY,Pearson Correlation,r=-0.0245,Weak correlation
+DAY_OF_MONTH,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0244,Weak correlation
+DAY_OF_WEEK,MARKETING_FLIGHT_NUMBER,Pearson Correlation,r=0.0559,Weak correlation
+DAY_OF_WEEK,SCHEDULED_DEP_TIME,Pearson Correlation,r=0.0039,Weak correlation
+DAY_OF_WEEK,SCHEDULED_DEP_HOUR,Pearson Correlation,r=0.0039,Weak correlation
+DAY_OF_WEEK,ACTUAL_DEP_TIME,Pearson Correlation,r=0.0038,Weak correlation
+DAY_OF_WEEK,ACTUAL_DEP_HOUR,Pearson Correlation,r=0.0038,Weak correlation
+DAY_OF_WEEK,DEP_DELAY,Pearson Correlation,r=0.0002,Weak correlation
+DAY_OF_WEEK,ORIGIN_TAXI_TIME,Pearson Correlation,r=-0.0030,Weak correlation
+DAY_OF_WEEK,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.0032,Weak correlation
+DAY_OF_WEEK,ARR_LANDING_TIME,Pearson Correlation,r=0.0015,Weak correlation
+DAY_OF_WEEK,DEST_TAXI_TIME,Pearson Correlation,r=0.0050,Weak correlation
+DAY_OF_WEEK,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.0025,Weak correlation
+DAY_OF_WEEK,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.0025,Weak correlation
+DAY_OF_WEEK,ACTUAL_ARR_TIME,Pearson Correlation,r=0.0011,Weak correlation
+DAY_OF_WEEK,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.0011,Weak correlation
+DAY_OF_WEEK,ARR_DELAY,Pearson Correlation,r=0.0003,Weak correlation
+DAY_OF_WEEK,CANCELLED,Pearson Correlation,r=0.0001,Weak correlation
+DAY_OF_WEEK,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0118,Weak correlation
+DAY_OF_WEEK,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.0096,Weak correlation
+DAY_OF_WEEK,IN_AIR_DURATION,Pearson Correlation,r=0.0103,Weak correlation
+DAY_OF_WEEK,DISTANCE,Pearson Correlation,r=0.0150,Weak correlation
+DAY_OF_WEEK,CARRIER_DELAY,Pearson Correlation,r=0.0064,Weak correlation
+DAY_OF_WEEK,WEATHER_DELAY,Pearson Correlation,r=0.0025,Weak correlation
+DAY_OF_WEEK,NAS_DELAY,Pearson Correlation,r=0.0112,Weak correlation
+DAY_OF_WEEK,SECURITY_DELAY,Pearson Correlation,r=0.0028,Weak correlation
+DAY_OF_WEEK,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0118,Weak correlation
+MARKETING_FLIGHT_NUMBER,SCHEDULED_DEP_TIME,Pearson Correlation,r=0.0021,Weak correlation
+MARKETING_FLIGHT_NUMBER,SCHEDULED_DEP_HOUR,Pearson Correlation,r=0.0019,Weak correlation
+MARKETING_FLIGHT_NUMBER,ACTUAL_DEP_TIME,Pearson Correlation,r=0.0097,Weak correlation
+MARKETING_FLIGHT_NUMBER,ACTUAL_DEP_HOUR,Pearson Correlation,r=0.0099,Weak correlation
+MARKETING_FLIGHT_NUMBER,DEP_DELAY,Pearson Correlation,r=-0.0102,Weak correlation
+MARKETING_FLIGHT_NUMBER,ORIGIN_TAXI_TIME,Pearson Correlation,r=0.1103,Weak correlation
+MARKETING_FLIGHT_NUMBER,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.0152,Weak correlation
+MARKETING_FLIGHT_NUMBER,ARR_LANDING_TIME,Pearson Correlation,r=0.0054,Weak correlation
+MARKETING_FLIGHT_NUMBER,DEST_TAXI_TIME,Pearson Correlation,r=0.0278,Weak correlation
+MARKETING_FLIGHT_NUMBER,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.0014,Weak correlation
+MARKETING_FLIGHT_NUMBER,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.0011,Weak correlation
+MARKETING_FLIGHT_NUMBER,ACTUAL_ARR_TIME,Pearson Correlation,r=0.0081,Weak correlation
+MARKETING_FLIGHT_NUMBER,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.0083,Weak correlation
+MARKETING_FLIGHT_NUMBER,ARR_DELAY,Pearson Correlation,r=-0.0097,Weak correlation
+MARKETING_FLIGHT_NUMBER,CANCELLED,Pearson Correlation,r=-0.0101,Weak correlation
+MARKETING_FLIGHT_NUMBER,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.3158,Weak correlation
+MARKETING_FLIGHT_NUMBER,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.2480,Weak correlation
+MARKETING_FLIGHT_NUMBER,IN_AIR_DURATION,Pearson Correlation,r=-0.2806,Weak correlation
+MARKETING_FLIGHT_NUMBER,DISTANCE,Pearson Correlation,r=-0.3578,Weak correlation
+MARKETING_FLIGHT_NUMBER,CARRIER_DELAY,Pearson Correlation,r=0.0179,Weak correlation
+MARKETING_FLIGHT_NUMBER,WEATHER_DELAY,Pearson Correlation,r=0.0169,Weak correlation
+MARKETING_FLIGHT_NUMBER,NAS_DELAY,Pearson Correlation,r=0.0100,Weak correlation
+MARKETING_FLIGHT_NUMBER,SECURITY_DELAY,Pearson Correlation,r=0.0015,Weak correlation
+MARKETING_FLIGHT_NUMBER,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0211,Weak correlation
+SCHEDULED_DEP_TIME,SCHEDULED_DEP_HOUR,Pearson Correlation,r=0.9993,Strong correlation
+SCHEDULED_DEP_TIME,ACTUAL_DEP_TIME,Pearson Correlation,r=0.7028,Moderate correlation
+SCHEDULED_DEP_TIME,ACTUAL_DEP_HOUR,Pearson Correlation,r=0.6873,Moderate correlation
+SCHEDULED_DEP_TIME,DEP_DELAY,Pearson Correlation,r=-0.0057,Weak correlation
+SCHEDULED_DEP_TIME,ORIGIN_TAXI_TIME,Pearson Correlation,r=-0.0282,Weak correlation
+SCHEDULED_DEP_TIME,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.6856,Moderate correlation
+SCHEDULED_DEP_TIME,ARR_LANDING_TIME,Pearson Correlation,r=0.5079,Moderate correlation
+SCHEDULED_DEP_TIME,DEST_TAXI_TIME,Pearson Correlation,r=-0.0529,Weak correlation
+SCHEDULED_DEP_TIME,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.7259,Moderate correlation
+SCHEDULED_DEP_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.7254,Moderate correlation
+SCHEDULED_DEP_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.4898,Weak correlation
+SCHEDULED_DEP_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.4793,Weak correlation
+SCHEDULED_DEP_TIME,ARR_DELAY,Pearson Correlation,r=-0.0059,Weak correlation
+SCHEDULED_DEP_TIME,CANCELLED,Pearson Correlation,r=-0.0062,Weak correlation
+SCHEDULED_DEP_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0293,Weak correlation
+SCHEDULED_DEP_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.0225,Weak correlation
+SCHEDULED_DEP_TIME,IN_AIR_DURATION,Pearson Correlation,r=-0.0160,Weak correlation
+SCHEDULED_DEP_TIME,DISTANCE,Pearson Correlation,r=-0.0165,Weak correlation
+SCHEDULED_DEP_TIME,CARRIER_DELAY,Pearson Correlation,r=-0.0000,Weak correlation
+SCHEDULED_DEP_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0010,Weak correlation
+SCHEDULED_DEP_TIME,NAS_DELAY,Pearson Correlation,r=0.0049,Weak correlation
+SCHEDULED_DEP_TIME,SECURITY_DELAY,Pearson Correlation,r=0.0040,Weak correlation
+SCHEDULED_DEP_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0451,Weak correlation
+SCHEDULED_DEP_HOUR,ACTUAL_DEP_TIME,Pearson Correlation,r=0.7018,Moderate correlation
+SCHEDULED_DEP_HOUR,ACTUAL_DEP_HOUR,Pearson Correlation,r=0.6866,Moderate correlation
+SCHEDULED_DEP_HOUR,DEP_DELAY,Pearson Correlation,r=-0.0059,Weak correlation
+SCHEDULED_DEP_HOUR,ORIGIN_TAXI_TIME,Pearson Correlation,r=-0.0281,Weak correlation
+SCHEDULED_DEP_HOUR,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.6849,Moderate correlation
+SCHEDULED_DEP_HOUR,ARR_LANDING_TIME,Pearson Correlation,r=0.5070,Moderate correlation
+SCHEDULED_DEP_HOUR,DEST_TAXI_TIME,Pearson Correlation,r=-0.0522,Weak correlation
+SCHEDULED_DEP_HOUR,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.7245,Moderate correlation
+SCHEDULED_DEP_HOUR,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.7240,Moderate correlation
+SCHEDULED_DEP_HOUR,ACTUAL_ARR_TIME,Pearson Correlation,r=0.4889,Weak correlation
+SCHEDULED_DEP_HOUR,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.4784,Weak correlation
+SCHEDULED_DEP_HOUR,ARR_DELAY,Pearson Correlation,r=-0.0060,Weak correlation
+SCHEDULED_DEP_HOUR,CANCELLED,Pearson Correlation,r=-0.0063,Weak correlation
+SCHEDULED_DEP_HOUR,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0290,Weak correlation
+SCHEDULED_DEP_HOUR,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.0222,Weak correlation
+SCHEDULED_DEP_HOUR,IN_AIR_DURATION,Pearson Correlation,r=-0.0158,Weak correlation
+SCHEDULED_DEP_HOUR,DISTANCE,Pearson Correlation,r=-0.0163,Weak correlation
+SCHEDULED_DEP_HOUR,CARRIER_DELAY,Pearson Correlation,r=0.0001,Weak correlation
+SCHEDULED_DEP_HOUR,WEATHER_DELAY,Pearson Correlation,r=0.0010,Weak correlation
+SCHEDULED_DEP_HOUR,NAS_DELAY,Pearson Correlation,r=0.0050,Weak correlation
+SCHEDULED_DEP_HOUR,SECURITY_DELAY,Pearson Correlation,r=0.0041,Weak correlation
+SCHEDULED_DEP_HOUR,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0450,Weak correlation
+ACTUAL_DEP_TIME,ACTUAL_DEP_HOUR,Pearson Correlation,r=0.9994,Strong correlation
+ACTUAL_DEP_TIME,DEP_DELAY,Pearson Correlation,r=-0.6573,Moderate correlation
+ACTUAL_DEP_TIME,ORIGIN_TAXI_TIME,Pearson Correlation,r=0.3239,Weak correlation
+ACTUAL_DEP_TIME,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.9892,Strong correlation
+ACTUAL_DEP_TIME,ARR_LANDING_TIME,Pearson Correlation,r=0.8539,Strong correlation
+ACTUAL_DEP_TIME,DEST_TAXI_TIME,Pearson Correlation,r=0.2444,Weak correlation
+ACTUAL_DEP_TIME,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.5250,Moderate correlation
+ACTUAL_DEP_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.5246,Moderate correlation
+ACTUAL_DEP_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.8384,Moderate correlation
+ACTUAL_DEP_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.8407,Moderate correlation
+ACTUAL_DEP_TIME,ARR_DELAY,Pearson Correlation,r=-0.6553,Moderate correlation
+ACTUAL_DEP_TIME,CANCELLED,Pearson Correlation,r=-0.6569,Moderate correlation
+ACTUAL_DEP_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0098,Weak correlation
+ACTUAL_DEP_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3159,Weak correlation
+ACTUAL_DEP_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.2784,Weak correlation
+ACTUAL_DEP_TIME,DISTANCE,Pearson Correlation,r=-0.0064,Weak correlation
+ACTUAL_DEP_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0466,Weak correlation
+ACTUAL_DEP_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0299,Weak correlation
+ACTUAL_DEP_TIME,NAS_DELAY,Pearson Correlation,r=0.0631,Weak correlation
+ACTUAL_DEP_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1826,Weak correlation
+ACTUAL_DEP_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0988,Weak correlation
+ACTUAL_DEP_HOUR,DEP_DELAY,Pearson Correlation,r=-0.6751,Moderate correlation
+ACTUAL_DEP_HOUR,ORIGIN_TAXI_TIME,Pearson Correlation,r=0.3334,Weak correlation
+ACTUAL_DEP_HOUR,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.9887,Strong correlation
+ACTUAL_DEP_HOUR,ARR_LANDING_TIME,Pearson Correlation,r=0.8569,Strong correlation
+ACTUAL_DEP_HOUR,DEST_TAXI_TIME,Pearson Correlation,r=0.2531,Weak correlation
+ACTUAL_DEP_HOUR,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.5136,Moderate correlation
+ACTUAL_DEP_HOUR,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.5133,Moderate correlation
+ACTUAL_DEP_HOUR,ACTUAL_ARR_TIME,Pearson Correlation,r=0.8418,Moderate correlation
+ACTUAL_DEP_HOUR,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.8446,Moderate correlation
+ACTUAL_DEP_HOUR,ARR_DELAY,Pearson Correlation,r=-0.6730,Moderate correlation
+ACTUAL_DEP_HOUR,CANCELLED,Pearson Correlation,r=-0.6746,Moderate correlation
+ACTUAL_DEP_HOUR,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0092,Weak correlation
+ACTUAL_DEP_HOUR,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3252,Weak correlation
+ACTUAL_DEP_HOUR,IN_AIR_DURATION,Pearson Correlation,r=0.2865,Weak correlation
+ACTUAL_DEP_HOUR,DISTANCE,Pearson Correlation,r=-0.0060,Weak correlation
+ACTUAL_DEP_HOUR,CARRIER_DELAY,Pearson Correlation,r=0.0472,Weak correlation
+ACTUAL_DEP_HOUR,WEATHER_DELAY,Pearson Correlation,r=0.0307,Weak correlation
+ACTUAL_DEP_HOUR,NAS_DELAY,Pearson Correlation,r=0.0641,Weak correlation
+ACTUAL_DEP_HOUR,SECURITY_DELAY,Pearson Correlation,r=0.1874,Weak correlation
+ACTUAL_DEP_HOUR,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0987,Weak correlation
+DEP_DELAY,ORIGIN_TAXI_TIME,Pearson Correlation,r=-0.5223,Moderate correlation
+DEP_DELAY,DEP_TAKEOFF_TIME,Pearson Correlation,r=-0.6641,Moderate correlation
+DEP_DELAY,ARR_LANDING_TIME,Pearson Correlation,r=-0.6800,Moderate correlation
+DEP_DELAY,DEST_TAXI_TIME,Pearson Correlation,r=-0.4368,Weak correlation
+DEP_DELAY,SCHEDULED_ARR_TIME,Pearson Correlation,r=-0.0111,Weak correlation
+DEP_DELAY,SCHEDULED_ARR_HOUR,Pearson Correlation,r=-0.0111,Weak correlation
+DEP_DELAY,ACTUAL_ARR_TIME,Pearson Correlation,r=-0.6788,Moderate correlation
+DEP_DELAY,ACTUAL_ARR_HOUR,Pearson Correlation,r=-0.6954,Moderate correlation
+DEP_DELAY,ARR_DELAY,Pearson Correlation,r=0.9969,Strong correlation
+DEP_DELAY,CANCELLED,Pearson Correlation,r=0.9981,Strong correlation
+DEP_DELAY,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0192,Weak correlation
+DEP_DELAY,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.5116,Moderate correlation
+DEP_DELAY,IN_AIR_DURATION,Pearson Correlation,r=-0.4475,Weak correlation
+DEP_DELAY,DISTANCE,Pearson Correlation,r=-0.0112,Weak correlation
+DEP_DELAY,CARRIER_DELAY,Pearson Correlation,r=-0.0376,Weak correlation
+DEP_DELAY,WEATHER_DELAY,Pearson Correlation,r=-0.0391,Weak correlation
+DEP_DELAY,NAS_DELAY,Pearson Correlation,r=-0.0675,Weak correlation
+DEP_DELAY,SECURITY_DELAY,Pearson Correlation,r=-0.2741,Weak correlation
+DEP_DELAY,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0511,Weak correlation
+ORIGIN_TAXI_TIME,DEP_TAKEOFF_TIME,Pearson Correlation,r=0.3460,Weak correlation
+ORIGIN_TAXI_TIME,ARR_LANDING_TIME,Pearson Correlation,r=0.3483,Weak correlation
+ORIGIN_TAXI_TIME,DEST_TAXI_TIME,Pearson Correlation,r=0.2687,Weak correlation
+ORIGIN_TAXI_TIME,SCHEDULED_ARR_TIME,Pearson Correlation,r=-0.0120,Weak correlation
+ORIGIN_TAXI_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=-0.0124,Weak correlation
+ORIGIN_TAXI_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.3462,Weak correlation
+ORIGIN_TAXI_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.3550,Weak correlation
+ORIGIN_TAXI_TIME,ARR_DELAY,Pearson Correlation,r=-0.5195,Moderate correlation
+ORIGIN_TAXI_TIME,CANCELLED,Pearson Correlation,r=-0.5229,Moderate correlation
+ORIGIN_TAXI_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0602,Weak correlation
+ORIGIN_TAXI_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3854,Weak correlation
+ORIGIN_TAXI_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.2574,Weak correlation
+ORIGIN_TAXI_TIME,DISTANCE,Pearson Correlation,r=0.0177,Weak correlation
+ORIGIN_TAXI_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0530,Weak correlation
+ORIGIN_TAXI_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0615,Weak correlation
+ORIGIN_TAXI_TIME,NAS_DELAY,Pearson Correlation,r=0.2796,Weak correlation
+ORIGIN_TAXI_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1444,Weak correlation
+ORIGIN_TAXI_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0666,Weak correlation
+DEP_TAKEOFF_TIME,ARR_LANDING_TIME,Pearson Correlation,r=0.8623,Strong correlation
+DEP_TAKEOFF_TIME,DEST_TAXI_TIME,Pearson Correlation,r=0.2494,Weak correlation
+DEP_TAKEOFF_TIME,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.5257,Moderate correlation
+DEP_TAKEOFF_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.5254,Moderate correlation
+DEP_TAKEOFF_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.8469,Moderate correlation
+DEP_TAKEOFF_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.8493,Moderate correlation
+DEP_TAKEOFF_TIME,ARR_DELAY,Pearson Correlation,r=-0.6633,Moderate correlation
+DEP_TAKEOFF_TIME,CANCELLED,Pearson Correlation,r=-0.6649,Moderate correlation
+DEP_TAKEOFF_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0135,Weak correlation
+DEP_TAKEOFF_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3185,Weak correlation
+DEP_TAKEOFF_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.2778,Weak correlation
+DEP_TAKEOFF_TIME,DISTANCE,Pearson Correlation,r=-0.0127,Weak correlation
+DEP_TAKEOFF_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0453,Weak correlation
+DEP_TAKEOFF_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0305,Weak correlation
+DEP_TAKEOFF_TIME,NAS_DELAY,Pearson Correlation,r=0.0685,Weak correlation
+DEP_TAKEOFF_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1846,Weak correlation
+DEP_TAKEOFF_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0959,Weak correlation
+ARR_LANDING_TIME,DEST_TAXI_TIME,Pearson Correlation,r=0.2708,Weak correlation
+ARR_LANDING_TIME,SCHEDULED_ARR_TIME,Pearson Correlation,r=0.6244,Moderate correlation
+ARR_LANDING_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.6241,Moderate correlation
+ARR_LANDING_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.9833,Strong correlation
+ARR_LANDING_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.9833,Strong correlation
+ARR_LANDING_TIME,ARR_DELAY,Pearson Correlation,r=-0.6820,Moderate correlation
+ARR_LANDING_TIME,CANCELLED,Pearson Correlation,r=-0.6816,Moderate correlation
+ARR_LANDING_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0280,Weak correlation
+ARR_LANDING_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3629,Weak correlation
+ARR_LANDING_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.3229,Weak correlation
+ARR_LANDING_TIME,DISTANCE,Pearson Correlation,r=0.0266,Weak correlation
+ARR_LANDING_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0294,Weak correlation
+ARR_LANDING_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0265,Weak correlation
+ARR_LANDING_TIME,NAS_DELAY,Pearson Correlation,r=0.0581,Weak correlation
+ARR_LANDING_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1885,Weak correlation
+ARR_LANDING_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0584,Weak correlation
+DEST_TAXI_TIME,SCHEDULED_ARR_TIME,Pearson Correlation,r=-0.0300,Weak correlation
+DEST_TAXI_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=-0.0300,Weak correlation
+DEST_TAXI_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.2765,Weak correlation
+DEST_TAXI_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.2845,Weak correlation
+DEST_TAXI_TIME,ARR_DELAY,Pearson Correlation,r=-0.4371,Weak correlation
+DEST_TAXI_TIME,CANCELLED,Pearson Correlation,r=-0.4377,Weak correlation
+DEST_TAXI_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0923,Weak correlation
+DEST_TAXI_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3391,Weak correlation
+DEST_TAXI_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.2507,Weak correlation
+DEST_TAXI_TIME,DISTANCE,Pearson Correlation,r=0.0546,Weak correlation
+DEST_TAXI_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0292,Weak correlation
+DEST_TAXI_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0264,Weak correlation
+DEST_TAXI_TIME,NAS_DELAY,Pearson Correlation,r=0.1342,Weak correlation
+DEST_TAXI_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1207,Weak correlation
+DEST_TAXI_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0447,Weak correlation
+SCHEDULED_ARR_TIME,SCHEDULED_ARR_HOUR,Pearson Correlation,r=0.9994,Strong correlation
+SCHEDULED_ARR_TIME,ACTUAL_ARR_TIME,Pearson Correlation,r=0.6270,Moderate correlation
+SCHEDULED_ARR_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.6136,Moderate correlation
+SCHEDULED_ARR_TIME,ARR_DELAY,Pearson Correlation,r=-0.0114,Weak correlation
+SCHEDULED_ARR_TIME,CANCELLED,Pearson Correlation,r=-0.0116,Weak correlation
+SCHEDULED_ARR_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0245,Weak correlation
+SCHEDULED_ARR_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.0217,Weak correlation
+SCHEDULED_ARR_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.0271,Weak correlation
+SCHEDULED_ARR_TIME,DISTANCE,Pearson Correlation,r=0.0281,Weak correlation
+SCHEDULED_ARR_TIME,CARRIER_DELAY,Pearson Correlation,r=-0.0015,Weak correlation
+SCHEDULED_ARR_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0008,Weak correlation
+SCHEDULED_ARR_TIME,NAS_DELAY,Pearson Correlation,r=0.0078,Weak correlation
+SCHEDULED_ARR_TIME,SECURITY_DELAY,Pearson Correlation,r=0.0051,Weak correlation
+SCHEDULED_ARR_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0404,Weak correlation
+SCHEDULED_ARR_HOUR,ACTUAL_ARR_TIME,Pearson Correlation,r=0.6268,Moderate correlation
+SCHEDULED_ARR_HOUR,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.6135,Moderate correlation
+SCHEDULED_ARR_HOUR,ARR_DELAY,Pearson Correlation,r=-0.0114,Weak correlation
+SCHEDULED_ARR_HOUR,CANCELLED,Pearson Correlation,r=-0.0116,Weak correlation
+SCHEDULED_ARR_HOUR,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0244,Weak correlation
+SCHEDULED_ARR_HOUR,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.0216,Weak correlation
+SCHEDULED_ARR_HOUR,IN_AIR_DURATION,Pearson Correlation,r=0.0270,Weak correlation
+SCHEDULED_ARR_HOUR,DISTANCE,Pearson Correlation,r=0.0281,Weak correlation
+SCHEDULED_ARR_HOUR,CARRIER_DELAY,Pearson Correlation,r=-0.0016,Weak correlation
+SCHEDULED_ARR_HOUR,WEATHER_DELAY,Pearson Correlation,r=0.0008,Weak correlation
+SCHEDULED_ARR_HOUR,NAS_DELAY,Pearson Correlation,r=0.0077,Weak correlation
+SCHEDULED_ARR_HOUR,SECURITY_DELAY,Pearson Correlation,r=0.0051,Weak correlation
+SCHEDULED_ARR_HOUR,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0402,Weak correlation
+ACTUAL_ARR_TIME,ACTUAL_ARR_HOUR,Pearson Correlation,r=0.9994,Strong correlation
+ACTUAL_ARR_TIME,ARR_DELAY,Pearson Correlation,r=-0.6807,Moderate correlation
+ACTUAL_ARR_TIME,CANCELLED,Pearson Correlation,r=-0.6802,Moderate correlation
+ACTUAL_ARR_TIME,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0257,Weak correlation
+ACTUAL_ARR_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3600,Weak correlation
+ACTUAL_ARR_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.3198,Weak correlation
+ACTUAL_ARR_TIME,DISTANCE,Pearson Correlation,r=0.0235,Weak correlation
+ACTUAL_ARR_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0282,Weak correlation
+ACTUAL_ARR_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0263,Weak correlation
+ACTUAL_ARR_TIME,NAS_DELAY,Pearson Correlation,r=0.0567,Weak correlation
+ACTUAL_ARR_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1880,Weak correlation
+ACTUAL_ARR_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0556,Weak correlation
+ACTUAL_ARR_HOUR,ARR_DELAY,Pearson Correlation,r=-0.6974,Moderate correlation
+ACTUAL_ARR_HOUR,CANCELLED,Pearson Correlation,r=-0.6969,Moderate correlation
+ACTUAL_ARR_HOUR,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=0.0258,Weak correlation
+ACTUAL_ARR_HOUR,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.3684,Weak correlation
+ACTUAL_ARR_HOUR,IN_AIR_DURATION,Pearson Correlation,r=0.3269,Weak correlation
+ACTUAL_ARR_HOUR,DISTANCE,Pearson Correlation,r=0.0234,Weak correlation
+ACTUAL_ARR_HOUR,CARRIER_DELAY,Pearson Correlation,r=0.0290,Weak correlation
+ACTUAL_ARR_HOUR,WEATHER_DELAY,Pearson Correlation,r=0.0271,Weak correlation
+ACTUAL_ARR_HOUR,NAS_DELAY,Pearson Correlation,r=0.0577,Weak correlation
+ACTUAL_ARR_HOUR,SECURITY_DELAY,Pearson Correlation,r=0.1925,Weak correlation
+ACTUAL_ARR_HOUR,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0562,Weak correlation
+ARR_DELAY,CANCELLED,Pearson Correlation,r=0.9987,Strong correlation
+ARR_DELAY,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0200,Weak correlation
+ARR_DELAY,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.5130,Moderate correlation
+ARR_DELAY,IN_AIR_DURATION,Pearson Correlation,r=-0.4490,Weak correlation
+ARR_DELAY,DISTANCE,Pearson Correlation,r=-0.0119,Weak correlation
+ARR_DELAY,CARRIER_DELAY,Pearson Correlation,r=-0.0377,Weak correlation
+ARR_DELAY,WEATHER_DELAY,Pearson Correlation,r=-0.0390,Weak correlation
+ARR_DELAY,NAS_DELAY,Pearson Correlation,r=-0.0664,Weak correlation
+ARR_DELAY,SECURITY_DELAY,Pearson Correlation,r=-0.2743,Weak correlation
+ARR_DELAY,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0511,Weak correlation
+CANCELLED,SCHEDULED_ELAPSED_TIME,Pearson Correlation,r=-0.0196,Weak correlation
+CANCELLED,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=-0.5127,Moderate correlation
+CANCELLED,IN_AIR_DURATION,Pearson Correlation,r=-0.4484,Weak correlation
+CANCELLED,DISTANCE,Pearson Correlation,r=-0.0115,Weak correlation
+CANCELLED,CARRIER_DELAY,Pearson Correlation,r=-0.0465,Weak correlation
+CANCELLED,WEATHER_DELAY,Pearson Correlation,r=-0.0427,Weak correlation
+CANCELLED,NAS_DELAY,Pearson Correlation,r=-0.0711,Weak correlation
+CANCELLED,SECURITY_DELAY,Pearson Correlation,r=-0.2750,Weak correlation
+CANCELLED,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0581,Weak correlation
+SCHEDULED_ELAPSED_TIME,ACTUAL_ELAPSED_TIME,Pearson Correlation,r=0.8027,Moderate correlation
+SCHEDULED_ELAPSED_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.8378,Moderate correlation
+SCHEDULED_ELAPSED_TIME,DISTANCE,Pearson Correlation,r=0.9769,Strong correlation
+SCHEDULED_ELAPSED_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0041,Weak correlation
+SCHEDULED_ELAPSED_TIME,WEATHER_DELAY,Pearson Correlation,r=-0.0101,Weak correlation
+SCHEDULED_ELAPSED_TIME,NAS_DELAY,Pearson Correlation,r=0.0149,Weak correlation
+SCHEDULED_ELAPSED_TIME,SECURITY_DELAY,Pearson Correlation,r=0.0063,Weak correlation
+SCHEDULED_ELAPSED_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0092,Weak correlation
+ACTUAL_ELAPSED_TIME,IN_AIR_DURATION,Pearson Correlation,r=0.9883,Strong correlation
+ACTUAL_ELAPSED_TIME,DISTANCE,Pearson Correlation,r=0.7842,Moderate correlation
+ACTUAL_ELAPSED_TIME,CARRIER_DELAY,Pearson Correlation,r=0.0296,Weak correlation
+ACTUAL_ELAPSED_TIME,WEATHER_DELAY,Pearson Correlation,r=0.0174,Weak correlation
+ACTUAL_ELAPSED_TIME,NAS_DELAY,Pearson Correlation,r=0.0983,Weak correlation
+ACTUAL_ELAPSED_TIME,SECURITY_DELAY,Pearson Correlation,r=0.1422,Weak correlation
+ACTUAL_ELAPSED_TIME,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0254,Weak correlation
+IN_AIR_DURATION,DISTANCE,Pearson Correlation,r=0.8267,Moderate correlation
+IN_AIR_DURATION,CARRIER_DELAY,Pearson Correlation,r=0.0224,Weak correlation
+IN_AIR_DURATION,WEATHER_DELAY,Pearson Correlation,r=0.0085,Weak correlation
+IN_AIR_DURATION,NAS_DELAY,Pearson Correlation,r=0.0566,Weak correlation
+IN_AIR_DURATION,SECURITY_DELAY,Pearson Correlation,r=0.1245,Weak correlation
+IN_AIR_DURATION,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0149,Weak correlation
+DISTANCE,CARRIER_DELAY,Pearson Correlation,r=0.0022,Weak correlation
+DISTANCE,WEATHER_DELAY,Pearson Correlation,r=-0.0123,Weak correlation
+DISTANCE,NAS_DELAY,Pearson Correlation,r=0.0073,Weak correlation
+DISTANCE,SECURITY_DELAY,Pearson Correlation,r=0.0045,Weak correlation
+DISTANCE,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=-0.0123,Weak correlation
+CARRIER_DELAY,WEATHER_DELAY,Pearson Correlation,r=0.0002,Weak correlation
+CARRIER_DELAY,NAS_DELAY,Pearson Correlation,r=0.0243,Weak correlation
+CARRIER_DELAY,SECURITY_DELAY,Pearson Correlation,r=0.0123,Weak correlation
+CARRIER_DELAY,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0490,Weak correlation
+WEATHER_DELAY,NAS_DELAY,Pearson Correlation,r=0.0292,Weak correlation
+WEATHER_DELAY,SECURITY_DELAY,Pearson Correlation,r=0.0114,Weak correlation
+WEATHER_DELAY,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0203,Weak correlation
+NAS_DELAY,SECURITY_DELAY,Pearson Correlation,r=0.0210,Weak correlation
+NAS_DELAY,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0458,Weak correlation
+SECURITY_DELAY,LATE_AIRCRAFT_DELAY,Pearson Correlation,r=0.0192,Weak correlation
+day_of_week_c,FLIGHT_DATE,Chi-Square Test,"chi2=30000.0000, p=0.0000, dof=1086, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+day_of_week_c,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=55.8531, p=0.4050, dof=54, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=18339.4126, p=0.4171, dof=18300, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=1703.9592, p=0.5367, dof=1710, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=1677.2048, p=0.4733, dof=1674, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=295.5998, p=0.4628, dof=294, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=295.5998, p=0.4628, dof=294, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=1749.5153, p=0.1876, dof=1698, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,DEST_CITY_NAME,Chi-Square Test,"chi2=1710.8380, p=0.1975, dof=1662, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,DEST_STATE_CODE,Chi-Square Test,"chi2=291.9588, p=0.7087, dof=306, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,DEST_STATE_NAME,Chi-Square Test,"chi2=291.9588, p=0.7087, dof=306, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=22.3500, p=0.0338, dof=12, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+day_of_week_c,DEP_DELAY_GROUP,Chi-Square Test,"chi2=110.3341, p=0.0717, dof=90, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=23.8921, p=0.0210, dof=12, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+day_of_week_c,ARR_DELAY_GROUP,Chi-Square Test,"chi2=220.9848, p=0.0405, dof=186, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+day_of_week_c,cancelled_c,Chi-Square Test,"chi2=6.5426, p=0.3652, dof=6, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,CANCELLATION_REASON,Chi-Square Test,"chi2=28.2023, p=0.2516, dof=24, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+day_of_week_c,DISTANCE_GROUP,Chi-Square Test,"chi2=62.9985, p=0.3707, dof=60, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+FLIGHT_DATE,day_of_week_c,Chi-Square Test,"chi2=30000.0000, p=0.0000, dof=1086, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=1819.4109, p=0.0006, dof=1629, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=535937.4734, p=1.0000, dof=552050, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+FLIGHT_DATE,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=53922.4331, p=0.0000, dof=51585, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=52867.3326, p=0.0000, dof=50499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=9108.8172, p=0.0368, dof=8869, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=9108.8172, p=0.0368, dof=8869, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=55155.5525, p=0.0000, dof=51223, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DEST_CITY_NAME,Chi-Square Test,"chi2=54007.8360, p=0.0000, dof=50137, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DEST_STATE_CODE,Chi-Square Test,"chi2=9810.4648, p=0.0000, dof=9231, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DEST_STATE_NAME,Chi-Square Test,"chi2=9810.4648, p=0.0000, dof=9231, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=2053.2608, p=0.0000, dof=362, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DEP_DELAY_GROUP,Chi-Square Test,"chi2=4178.1926, p=0.0000, dof=2715, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=2087.4217, p=0.0000, dof=362, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,ARR_DELAY_GROUP,Chi-Square Test,"chi2=6219.2327, p=0.0000, dof=5611, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,cancelled_c,Chi-Square Test,"chi2=1751.4880, p=0.0000, dof=181, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,CANCELLATION_REASON,Chi-Square Test,"chi2=2515.5398, p=0.0000, dof=724, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+FLIGHT_DATE,DISTANCE_GROUP,Chi-Square Test,"chi2=1651.1817, p=0.9966, dof=1810, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+MARKETING_CARRIER_CODE,day_of_week_c,Chi-Square Test,"chi2=55.8531, p=0.4050, dof=54, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+MARKETING_CARRIER_CODE,FLIGHT_DATE,Chi-Square Test,"chi2=1819.4109, p=0.0006, dof=1629, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=42178.4370, p=0.0000, dof=27450, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=14430.0886, p=0.0000, dof=2565, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=13482.7826, p=0.0000, dof=2511, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=8331.3217, p=0.0000, dof=441, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=8331.3217, p=0.0000, dof=441, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=14542.4766, p=0.0000, dof=2547, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DEST_CITY_NAME,Chi-Square Test,"chi2=13230.4517, p=0.0000, dof=2493, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DEST_STATE_CODE,Chi-Square Test,"chi2=8092.1887, p=0.0000, dof=459, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DEST_STATE_NAME,Chi-Square Test,"chi2=8092.1887, p=0.0000, dof=459, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=109.6140, p=0.0000, dof=18, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DEP_DELAY_GROUP,Chi-Square Test,"chi2=417.9230, p=0.0000, dof=135, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=127.5836, p=0.0000, dof=18, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,ARR_DELAY_GROUP,Chi-Square Test,"chi2=606.6784, p=0.0000, dof=279, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,cancelled_c,Chi-Square Test,"chi2=87.6189, p=0.0000, dof=9, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,CANCELLATION_REASON,Chi-Square Test,"chi2=245.6035, p=0.0000, dof=36, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+MARKETING_CARRIER_CODE,DISTANCE_GROUP,Chi-Square Test,"chi2=922.8113, p=0.0000, dof=90, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,day_of_week_c,Chi-Square Test,"chi2=18339.4126, p=0.4171, dof=18300, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+AIRCRAFT_TAIL_NUMBER,FLIGHT_DATE,Chi-Square Test,"chi2=535937.4734, p=1.0000, dof=552050, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+AIRCRAFT_TAIL_NUMBER,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=42178.4370, p=0.0000, dof=27450, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=850711.5666, p=1.0000, dof=869250, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+AIRCRAFT_TAIL_NUMBER,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=829901.0528, p=1.0000, dof=850950, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+AIRCRAFT_TAIL_NUMBER,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=156359.3187, p=0.0000, dof=149450, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=156359.3187, p=0.0000, dof=149450, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=818557.9970, p=1.0000, dof=863150, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+AIRCRAFT_TAIL_NUMBER,DEST_CITY_NAME,Chi-Square Test,"chi2=802952.5084, p=1.0000, dof=844850, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+AIRCRAFT_TAIL_NUMBER,DEST_STATE_CODE,Chi-Square Test,"chi2=161423.5774, p=0.0000, dof=155550, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,DEST_STATE_NAME,Chi-Square Test,"chi2=161423.5774, p=0.0000, dof=155550, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=7658.6295, p=0.0000, dof=6100, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,DEP_DELAY_GROUP,Chi-Square Test,"chi2=51589.2806, p=0.0000, dof=45750, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=7595.2225, p=0.0000, dof=6100, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,ARR_DELAY_GROUP,Chi-Square Test,"chi2=104569.3215, p=0.0000, dof=94550, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,cancelled_c,Chi-Square Test,"chi2=4268.2963, p=0.0000, dof=3050, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,CANCELLATION_REASON,Chi-Square Test,"chi2=12936.0976, p=0.0000, dof=12200, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+AIRCRAFT_TAIL_NUMBER,DISTANCE_GROUP,Chi-Square Test,"chi2=33461.4569, p=0.0000, dof=30500, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,day_of_week_c,Chi-Square Test,"chi2=1703.9592, p=0.5367, dof=1710, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,FLIGHT_DATE,Chi-Square Test,"chi2=53922.4331, p=0.0000, dof=51585, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=14430.0886, p=0.0000, dof=2565, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=850711.5666, p=1.0000, dof=869250, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=1395000.0000, p=0.0000, dof=79515, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13965, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13965, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=80701.4908, p=0.4533, dof=80655, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,DEST_CITY_NAME,Chi-Square Test,"chi2=78015.5363, p=0.9905, dof=78945, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,DEST_STATE_CODE,Chi-Square Test,"chi2=21488.9693, p=0.0000, dof=14535, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,DEST_STATE_NAME,Chi-Square Test,"chi2=21488.9693, p=0.0000, dof=14535, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=580.3044, p=0.3733, dof=570, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,DEP_DELAY_GROUP,Chi-Square Test,"chi2=4390.1752, p=0.1072, dof=4275, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=631.4443, p=0.0377, dof=570, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,ARR_DELAY_GROUP,Chi-Square Test,"chi2=14438.2685, p=0.0000, dof=8835, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_AIRPORT_CODE,cancelled_c,Chi-Square Test,"chi2=299.2770, p=0.2689, dof=285, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,CANCELLATION_REASON,Chi-Square Test,"chi2=1049.2317, p=0.9738, dof=1140, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_AIRPORT_CODE,DISTANCE_GROUP,Chi-Square Test,"chi2=5177.0023, p=0.0000, dof=2850, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,day_of_week_c,Chi-Square Test,"chi2=1677.2048, p=0.4733, dof=1674, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,FLIGHT_DATE,Chi-Square Test,"chi2=52867.3326, p=0.0000, dof=50499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=13482.7826, p=0.0000, dof=2511, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=829901.0528, p=1.0000, dof=850950, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=1395000.0000, p=0.0000, dof=79515, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13671, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13671, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=76655.5184, p=1.0000, dof=78957, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,DEST_CITY_NAME,Chi-Square Test,"chi2=73991.1383, p=1.0000, dof=77283, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,DEST_STATE_CODE,Chi-Square Test,"chi2=20979.2849, p=0.0000, dof=14229, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,DEST_STATE_NAME,Chi-Square Test,"chi2=20979.2849, p=0.0000, dof=14229, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=552.0694, p=0.5628, dof=558, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,DEP_DELAY_GROUP,Chi-Square Test,"chi2=4277.2788, p=0.1566, dof=4185, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=598.5710, p=0.1139, dof=558, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,ARR_DELAY_GROUP,Chi-Square Test,"chi2=14158.8156, p=0.0000, dof=8649, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_CITY_NAME,cancelled_c,Chi-Square Test,"chi2=290.9326, p=0.2994, dof=279, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,CANCELLATION_REASON,Chi-Square Test,"chi2=1028.5174, p=0.9705, dof=1116, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_CITY_NAME,DISTANCE_GROUP,Chi-Square Test,"chi2=4949.9959, p=0.0000, dof=2790, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,day_of_week_c,Chi-Square Test,"chi2=295.5998, p=0.4628, dof=294, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_CODE,FLIGHT_DATE,Chi-Square Test,"chi2=9108.8172, p=0.0368, dof=8869, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=8331.3217, p=0.0000, dof=441, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=156359.3187, p=0.0000, dof=149450, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13965, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13671, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=2401, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=21007.9774, p=0.0000, dof=13867, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,DEST_CITY_NAME,Chi-Square Test,"chi2=20396.7754, p=0.0000, dof=13573, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,DEST_STATE_CODE,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,DEST_STATE_NAME,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=113.9476, p=0.1293, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_CODE,DEP_DELAY_GROUP,Chi-Square Test,"chi2=961.6512, p=0.0000, dof=735, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=119.3343, p=0.0705, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_CODE,ARR_DELAY_GROUP,Chi-Square Test,"chi2=2226.9686, p=0.0000, dof=1519, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,cancelled_c,Chi-Square Test,"chi2=60.2344, p=0.1304, dof=49, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_CODE,CANCELLATION_REASON,Chi-Square Test,"chi2=255.8018, p=0.0026, dof=196, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_CODE,DISTANCE_GROUP,Chi-Square Test,"chi2=2621.9493, p=0.0000, dof=490, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,day_of_week_c,Chi-Square Test,"chi2=295.5998, p=0.4628, dof=294, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_NAME,FLIGHT_DATE,Chi-Square Test,"chi2=9108.8172, p=0.0368, dof=8869, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=8331.3217, p=0.0000, dof=441, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=156359.3187, p=0.0000, dof=149450, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13965, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=13671, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=245000.0000, p=0.0000, dof=2401, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=21007.9774, p=0.0000, dof=13867, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,DEST_CITY_NAME,Chi-Square Test,"chi2=20396.7754, p=0.0000, dof=13573, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,DEST_STATE_CODE,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,DEST_STATE_NAME,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=113.9476, p=0.1293, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_NAME,DEP_DELAY_GROUP,Chi-Square Test,"chi2=961.6512, p=0.0000, dof=735, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=119.3343, p=0.0705, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_NAME,ARR_DELAY_GROUP,Chi-Square Test,"chi2=2226.9686, p=0.0000, dof=1519, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,cancelled_c,Chi-Square Test,"chi2=60.2344, p=0.1304, dof=49, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ORIGIN_STATE_NAME,CANCELLATION_REASON,Chi-Square Test,"chi2=255.8018, p=0.0026, dof=196, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ORIGIN_STATE_NAME,DISTANCE_GROUP,Chi-Square Test,"chi2=2621.9493, p=0.0000, dof=490, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,day_of_week_c,Chi-Square Test,"chi2=1749.5153, p=0.1876, dof=1698, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,FLIGHT_DATE,Chi-Square Test,"chi2=55155.5525, p=0.0000, dof=51223, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=14542.4766, p=0.0000, dof=2547, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=818557.9970, p=1.0000, dof=863150, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=80701.4908, p=0.4533, dof=80655, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=76655.5184, p=1.0000, dof=78957, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=21007.9774, p=0.0000, dof=13867, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=21007.9774, p=0.0000, dof=13867, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,DEST_CITY_NAME,Chi-Square Test,"chi2=1385000.0000, p=0.0000, dof=78391, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,DEST_STATE_CODE,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14433, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,DEST_STATE_NAME,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14433, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=598.7960, p=0.1645, dof=566, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,DEP_DELAY_GROUP,Chi-Square Test,"chi2=5182.2483, p=0.0000, dof=4245, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=641.4110, p=0.0151, dof=566, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,ARR_DELAY_GROUP,Chi-Square Test,"chi2=8129.7806, p=1.0000, dof=8773, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,cancelled_c,Chi-Square Test,"chi2=292.6426, p=0.3341, dof=283, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_AIRPORT_CODE,CANCELLATION_REASON,Chi-Square Test,"chi2=1466.1880, p=0.0000, dof=1132, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_AIRPORT_CODE,DISTANCE_GROUP,Chi-Square Test,"chi2=5396.3163, p=0.0000, dof=2830, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,day_of_week_c,Chi-Square Test,"chi2=1710.8380, p=0.1975, dof=1662, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,FLIGHT_DATE,Chi-Square Test,"chi2=54007.8360, p=0.0000, dof=50137, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=13230.4517, p=0.0000, dof=2493, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=802952.5084, p=1.0000, dof=844850, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=78015.5363, p=0.9905, dof=78945, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=73991.1383, p=1.0000, dof=77283, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=20396.7754, p=0.0000, dof=13573, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=20396.7754, p=0.0000, dof=13573, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=1385000.0000, p=0.0000, dof=78391, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,DEST_STATE_CODE,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14127, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,DEST_STATE_NAME,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14127, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=565.9489, p=0.3533, dof=554, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,DEP_DELAY_GROUP,Chi-Square Test,"chi2=5087.9322, p=0.0000, dof=4155, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=607.7007, p=0.0566, dof=554, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,ARR_DELAY_GROUP,Chi-Square Test,"chi2=7949.3183, p=1.0000, dof=8587, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,cancelled_c,Chi-Square Test,"chi2=262.2556, p=0.7289, dof=277, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_CITY_NAME,CANCELLATION_REASON,Chi-Square Test,"chi2=1418.4088, p=0.0000, dof=1108, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_CITY_NAME,DISTANCE_GROUP,Chi-Square Test,"chi2=5180.8472, p=0.0000, dof=2770, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,day_of_week_c,Chi-Square Test,"chi2=291.9588, p=0.7087, dof=306, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_CODE,FLIGHT_DATE,Chi-Square Test,"chi2=9810.4648, p=0.0000, dof=9231, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=8092.1887, p=0.0000, dof=459, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=161423.5774, p=0.0000, dof=155550, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=21488.9693, p=0.0000, dof=14535, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=20979.2849, p=0.0000, dof=14229, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14433, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,DEST_CITY_NAME,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14127, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,DEST_STATE_NAME,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=2601, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=102.2778, p=0.4736, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_CODE,DEP_DELAY_GROUP,Chi-Square Test,"chi2=1041.2253, p=0.0000, dof=765, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=105.9031, p=0.3758, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_CODE,ARR_DELAY_GROUP,Chi-Square Test,"chi2=1530.5522, p=0.8146, dof=1581, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_CODE,cancelled_c,Chi-Square Test,"chi2=59.6342, p=0.1905, dof=51, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_CODE,CANCELLATION_REASON,Chi-Square Test,"chi2=261.7906, p=0.0039, dof=204, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_CODE,DISTANCE_GROUP,Chi-Square Test,"chi2=2718.2150, p=0.0000, dof=510, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,day_of_week_c,Chi-Square Test,"chi2=291.9588, p=0.7087, dof=306, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_NAME,FLIGHT_DATE,Chi-Square Test,"chi2=9810.4648, p=0.0000, dof=9231, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=8092.1887, p=0.0000, dof=459, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=161423.5774, p=0.0000, dof=155550, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=21488.9693, p=0.0000, dof=14535, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=20979.2849, p=0.0000, dof=14229, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=11374.0608, p=0.0000, dof=2499, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14433, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,DEST_CITY_NAME,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=14127, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,DEST_STATE_CODE,Chi-Square Test,"chi2=255000.0000, p=0.0000, dof=2601, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=102.2778, p=0.4736, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_NAME,DEP_DELAY_GROUP,Chi-Square Test,"chi2=1041.2253, p=0.0000, dof=765, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=105.9031, p=0.3758, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_NAME,ARR_DELAY_GROUP,Chi-Square Test,"chi2=1530.5522, p=0.8146, dof=1581, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_NAME,cancelled_c,Chi-Square Test,"chi2=59.6342, p=0.1905, dof=51, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEST_STATE_NAME,CANCELLATION_REASON,Chi-Square Test,"chi2=261.7906, p=0.0039, dof=204, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEST_STATE_NAME,DISTANCE_GROUP,Chi-Square Test,"chi2=2718.2150, p=0.0000, dof=510, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,day_of_week_c,Chi-Square Test,"chi2=22.3500, p=0.0338, dof=12, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,FLIGHT_DATE,Chi-Square Test,"chi2=2053.2608, p=0.0000, dof=362, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=109.6140, p=0.0000, dof=18, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=7658.6295, p=0.0000, dof=6100, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=580.3044, p=0.3733, dof=570, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=552.0694, p=0.5628, dof=558, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=113.9476, p=0.1293, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=113.9476, p=0.1293, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=598.7960, p=0.1645, dof=566, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,DEST_CITY_NAME,Chi-Square Test,"chi2=565.9489, p=0.3533, dof=554, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,DEST_STATE_CODE,Chi-Square Test,"chi2=102.2778, p=0.4736, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,DEST_STATE_NAME,Chi-Square Test,"chi2=102.2778, p=0.4736, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_15_MIN,DEP_DELAY_GROUP,Chi-Square Test,"chi2=10000.0000, p=0.0000, dof=30, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=7611.3799, p=0.0000, dof=4, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,ARR_DELAY_GROUP,Chi-Square Test,"chi2=7927.5470, p=0.0000, dof=62, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,cancelled_c,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=2, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,CANCELLATION_REASON,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=8, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_15_MIN,DISTANCE_GROUP,Chi-Square Test,"chi2=27.7412, p=0.1157, dof=20, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_GROUP,day_of_week_c,Chi-Square Test,"chi2=110.3341, p=0.0717, dof=90, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_GROUP,FLIGHT_DATE,Chi-Square Test,"chi2=4178.1926, p=0.0000, dof=2715, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=417.9230, p=0.0000, dof=135, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=51589.2806, p=0.0000, dof=45750, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=4390.1752, p=0.1072, dof=4275, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_GROUP,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=4277.2788, p=0.1566, dof=4185, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DEP_DELAY_GROUP,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=961.6512, p=0.0000, dof=735, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=961.6512, p=0.0000, dof=735, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=5182.2483, p=0.0000, dof=4245, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,DEST_CITY_NAME,Chi-Square Test,"chi2=5087.9322, p=0.0000, dof=4155, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,DEST_STATE_CODE,Chi-Square Test,"chi2=1041.2253, p=0.0000, dof=765, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,DEST_STATE_NAME,Chi-Square Test,"chi2=1041.2253, p=0.0000, dof=765, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=10000.0000, p=0.0000, dof=30, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=8005.1390, p=0.0000, dof=30, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,ARR_DELAY_GROUP,Chi-Square Test,"chi2=25415.1405, p=0.0000, dof=465, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,cancelled_c,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=15, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,CANCELLATION_REASON,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=60, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DEP_DELAY_GROUP,DISTANCE_GROUP,Chi-Square Test,"chi2=208.2222, p=0.0012, dof=150, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,day_of_week_c,Chi-Square Test,"chi2=23.8921, p=0.0210, dof=12, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,FLIGHT_DATE,Chi-Square Test,"chi2=2087.4217, p=0.0000, dof=362, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=127.5836, p=0.0000, dof=18, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=7595.2225, p=0.0000, dof=6100, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=631.4443, p=0.0377, dof=570, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=598.5710, p=0.1139, dof=558, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_15_MIN,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=119.3343, p=0.0705, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_15_MIN,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=119.3343, p=0.0705, dof=98, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_15_MIN,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=641.4110, p=0.0151, dof=566, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,DEST_CITY_NAME,Chi-Square Test,"chi2=607.7007, p=0.0566, dof=554, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_15_MIN,DEST_STATE_CODE,Chi-Square Test,"chi2=105.9031, p=0.3758, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_15_MIN,DEST_STATE_NAME,Chi-Square Test,"chi2=105.9031, p=0.3758, dof=102, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_15_MIN,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=7611.3799, p=0.0000, dof=4, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,DEP_DELAY_GROUP,Chi-Square Test,"chi2=8005.1390, p=0.0000, dof=30, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,ARR_DELAY_GROUP,Chi-Square Test,"chi2=10000.0000, p=0.0000, dof=62, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,cancelled_c,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=2, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,CANCELLATION_REASON,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=8, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_15_MIN,DISTANCE_GROUP,Chi-Square Test,"chi2=29.2687, p=0.0826, dof=20, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_GROUP,day_of_week_c,Chi-Square Test,"chi2=220.9848, p=0.0405, dof=186, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,FLIGHT_DATE,Chi-Square Test,"chi2=6219.2327, p=0.0000, dof=5611, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=606.6784, p=0.0000, dof=279, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=104569.3215, p=0.0000, dof=94550, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=14438.2685, p=0.0000, dof=8835, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=14158.8156, p=0.0000, dof=8649, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=2226.9686, p=0.0000, dof=1519, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=2226.9686, p=0.0000, dof=1519, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=8129.7806, p=1.0000, dof=8773, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_GROUP,DEST_CITY_NAME,Chi-Square Test,"chi2=7949.3183, p=1.0000, dof=8587, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_GROUP,DEST_STATE_CODE,Chi-Square Test,"chi2=1530.5522, p=0.8146, dof=1581, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_GROUP,DEST_STATE_NAME,Chi-Square Test,"chi2=1530.5522, p=0.8146, dof=1581, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+ARR_DELAY_GROUP,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=7927.5470, p=0.0000, dof=62, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,DEP_DELAY_GROUP,Chi-Square Test,"chi2=25415.1405, p=0.0000, dof=465, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=10000.0000, p=0.0000, dof=62, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,cancelled_c,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=31, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,CANCELLATION_REASON,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=124, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+ARR_DELAY_GROUP,DISTANCE_GROUP,Chi-Square Test,"chi2=523.2733, p=0.0000, dof=310, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,day_of_week_c,Chi-Square Test,"chi2=6.5426, p=0.3652, dof=6, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,FLIGHT_DATE,Chi-Square Test,"chi2=1751.4880, p=0.0000, dof=181, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=87.6189, p=0.0000, dof=9, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=4268.2963, p=0.0000, dof=3050, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=299.2770, p=0.2689, dof=285, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=290.9326, p=0.2994, dof=279, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=60.2344, p=0.1304, dof=49, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=60.2344, p=0.1304, dof=49, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=292.6426, p=0.3341, dof=283, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,DEST_CITY_NAME,Chi-Square Test,"chi2=262.2556, p=0.7289, dof=277, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,DEST_STATE_CODE,Chi-Square Test,"chi2=59.6342, p=0.1905, dof=51, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,DEST_STATE_NAME,Chi-Square Test,"chi2=59.6342, p=0.1905, dof=51, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+cancelled_c,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=2, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,DEP_DELAY_GROUP,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=15, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=2, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,ARR_DELAY_GROUP,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=31, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,CANCELLATION_REASON,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=4, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+cancelled_c,DISTANCE_GROUP,Chi-Square Test,"chi2=18.2982, p=0.0501, dof=10, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+CANCELLATION_REASON,day_of_week_c,Chi-Square Test,"chi2=28.2023, p=0.2516, dof=24, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+CANCELLATION_REASON,FLIGHT_DATE,Chi-Square Test,"chi2=2515.5398, p=0.0000, dof=724, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=245.6035, p=0.0000, dof=36, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=12936.0976, p=0.0000, dof=12200, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=1049.2317, p=0.9738, dof=1140, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+CANCELLATION_REASON,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=1028.5174, p=0.9705, dof=1116, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+CANCELLATION_REASON,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=255.8018, p=0.0026, dof=196, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=255.8018, p=0.0026, dof=196, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=1466.1880, p=0.0000, dof=1132, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DEST_CITY_NAME,Chi-Square Test,"chi2=1418.4088, p=0.0000, dof=1108, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DEST_STATE_CODE,Chi-Square Test,"chi2=261.7906, p=0.0039, dof=204, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DEST_STATE_NAME,Chi-Square Test,"chi2=261.7906, p=0.0039, dof=204, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=8, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DEP_DELAY_GROUP,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=60, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=8, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,ARR_DELAY_GROUP,Chi-Square Test,"chi2=4989.6891, p=0.0000, dof=124, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,cancelled_c,Chi-Square Test,"chi2=5000.0000, p=0.0000, dof=4, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+CANCELLATION_REASON,DISTANCE_GROUP,Chi-Square Test,"chi2=91.1814, p=0.0000, dof=40, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,day_of_week_c,Chi-Square Test,"chi2=62.9985, p=0.3707, dof=60, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DISTANCE_GROUP,FLIGHT_DATE,Chi-Square Test,"chi2=1651.1817, p=0.9966, dof=1810, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DISTANCE_GROUP,MARKETING_CARRIER_CODE,Chi-Square Test,"chi2=922.8113, p=0.0000, dof=90, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,AIRCRAFT_TAIL_NUMBER,Chi-Square Test,"chi2=33461.4569, p=0.0000, dof=30500, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,ORIGIN_AIRPORT_CODE,Chi-Square Test,"chi2=5177.0023, p=0.0000, dof=2850, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,ORIGIN_CITY_NAME,Chi-Square Test,"chi2=4949.9959, p=0.0000, dof=2790, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,ORIGIN_STATE_CODE,Chi-Square Test,"chi2=2621.9493, p=0.0000, dof=490, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,ORIGIN_STATE_NAME,Chi-Square Test,"chi2=2621.9493, p=0.0000, dof=490, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,DEST_AIRPORT_CODE,Chi-Square Test,"chi2=5396.3163, p=0.0000, dof=2830, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,DEST_CITY_NAME,Chi-Square Test,"chi2=5180.8472, p=0.0000, dof=2770, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,DEST_STATE_CODE,Chi-Square Test,"chi2=2718.2150, p=0.0000, dof=510, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,DEST_STATE_NAME,Chi-Square Test,"chi2=2718.2150, p=0.0000, dof=510, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,DEP_DELAY_15_MIN,Chi-Square Test,"chi2=27.7412, p=0.1157, dof=20, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DISTANCE_GROUP,DEP_DELAY_GROUP,Chi-Square Test,"chi2=208.2222, p=0.0012, dof=150, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,ARR_DELAY_15_MIN,Chi-Square Test,"chi2=29.2687, p=0.0826, dof=20, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DISTANCE_GROUP,ARR_DELAY_GROUP,Chi-Square Test,"chi2=523.2733, p=0.0000, dof=310, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)
+DISTANCE_GROUP,cancelled_c,Chi-Square Test,"chi2=18.2982, p=0.0501, dof=10, n=5000 (sampled 5000/2745847)",Independent (p ≥ 0.05)
+DISTANCE_GROUP,CANCELLATION_REASON,Chi-Square Test,"chi2=91.1814, p=0.0000, dof=40, n=5000 (sampled 5000/2745847)",Associated (p < 0.05)

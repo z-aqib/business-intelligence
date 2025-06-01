@@ -223,6 +223,34 @@ cancel_map = {
 - filled missing values: filled with formula `elapsed = arr - time` for actual, by converting to minutes and then finding elapsed time.
 - converted to int
 
+## 40. AIR_TIME
+- filled missing values: filled with formula `air_time = wheels_dest - wheels_origin` for actual, by converting to minutes and then finding elapsed time.
+- converted to int
+- renamed to `IN_AIR_DURATION`
+
+## 41. DISTANCE
+no change
+
+## 42. DISTANCE_GROUP 
+- applied map:
+```
+map = {
+    0: '0-250 miles',
+    1: '250-500 miles',
+    2: '500-750 miles',
+    3: '750-1000 miles',
+    4: '1000-1250 miles',
+    5: '1250-1500 miles',
+    6: '1500-1750 miles',
+    7: '1750-2000 miles',
+    8: '2000-2250 miles',
+    9: '2250-2500 miles',
+    10: '2500-2750 miles',
+    11: '2750-3000 miles'
+}
+```
+- converted to string
+
 ## 43. CARRIER_DELAY
 - filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
 - converted to int

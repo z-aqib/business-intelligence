@@ -133,6 +133,32 @@ cancel_map = {
     - filled -1 to signify time that it was cancelled in the columns: '`TAXI_OUT`', '`TAXI_IN`', '`WHEELS_OFF`', '`WHEELS_ON`', '`ARR_TIME`', '`ARR_DELAY_NEW`', '`CARRIER_DELAY`', '`WEATHER_DELAY`', '`NAS_DELAY`', '`SECURITY_DELAY`', '`LATE_AIRCRAFT_DELAY`'
     - filled 0 to signify time taken that it was cancelled in the columns: '`ACTUAL_ELAPSED_TIME`', '`AIR_TIME`'
 - converted from float to integer
+- renamed to `ORIGIN_TAXI_TIME`
+
+## 26. WHEELS_OFF
+- no missing values, converted to int
+- renamed to `DEP_TAKEOFF_TIME`
+
+## 27. WHEELS_ON
+- filled missing values:
+    - for the cancelled flights: filled with -1, filled the following columns with -1: '`WHEELS_ON`', '`TAXI_IN`', '`ARR_TIME`', '`CARRIER_DELAY`', '`WEATHER_DELAY`', '`NAS_DELAY`', '`SECURITY_DELAY`', '`LATE_AIRCRAFT_DELAY`' and the following columns with 0: '`ACTUAL_ELAPSED_TIME`', '`AIR_TIME`'
+    - for the non-cancelled flights: found that those flights did not land. they did depart - could be diverted flights. filled with -1 as they did not exist. filled the columns '`WHEELS_ON`', '`TAXI_IN`', '`ARR_TIME`' with -1 and the columns '`ACTUAL_ELAPSED_TIME`', '`AIR_TIME`' with 0. 
+- renamed to `ARR_LANDING_TIME`
+- converted to int
+
+## 28. TAXI_IN
+- converted to int
+- renamed to `DEST_TAXI_TIME`
+
+## 29. CRS_ARR_TIME
+- no missing values, extracted hours and created new column `CRS_ARR_HOUR`
+- inconsistency: fixed 2400 values to 0000
+- renamed `CRS_ARR_TIME` to `SCHEDULED_ARR_TIME` and `CRS_ARR_HOUR` to `SCHEDULED_ARR_HOUR`
+
+## 30. ARR_TIME
+- no missing values, extracted hours and created new column `ARR_HOUR`
+- inconsistency: fixed 2400 values to 0000
+- renamed `ARR_TIME` to `ACTUAL_ARR_TIME` and `ARR_HOUR` to `ACTUAL_ARR_HOUR`
 
 ## 43. CARRIER_DELAY
 - filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)

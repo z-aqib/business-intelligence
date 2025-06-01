@@ -186,6 +186,13 @@ cancel_map = {
 - renamed col to `ARR_DELAY_15_MIN`
 
 ## 34. ARR_DELAY_GROUP
+- filled missing values:
+    - filled cancelled flights with 9999
+    - filled non cancelled but diverted flights with 9999
+    - filled non cancelled with their respective group
+- converted using automated map all value groups to strings just like in `dep_delay_group`
+- converted 9999 to cancelled
+- changed dtype to string
 
 ## 35. ARR_TIME_BLK
 - dropped as same to `SCHEDULED_ARR_HOUR`
@@ -213,6 +220,7 @@ cancel_map = {
 }
 ```
 - converted to string
+- renamed to `CANCELLATION_REASON`
 
 ## 38. CRS_ELAPSED_TIME
 - filled missing values: filled with formula `elapsed = arr - time` for scheduled, by converting to minutes and then finding elapsed time.

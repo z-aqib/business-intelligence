@@ -185,6 +185,35 @@ cancel_map = {
 - datatype to string
 - renamed col to `ARR_DELAY_15_MIN`
 
+## 34. ARR_DELAY_GROUP
+
+## 35. ARR_TIME_BLK
+- dropped as same to `SCHEDULED_ARR_HOUR`
+
+## 36. CANCELLED
+- added a new column: `cancelled_c` with the following mapping:
+```
+# Mapping for a new column
+mapping = {
+    0: 'No', 
+    1: 'Yes'
+}
+```
+- converted it to string
+
+## 37. CANCELLATION_CODE
+- filled missing values with 'Not Cancelled' and did the following mapping:
+```
+cancel_map = {
+    'A': 'Carrier',
+    'B': 'Weather',
+    'C': 'Airspace System (NAS)',
+    'D': 'Security',
+    'Not Cancelled': 'Not Cancelled'
+}
+```
+- converted to string
+
 ## 43. CARRIER_DELAY
 - filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
 - converted to int

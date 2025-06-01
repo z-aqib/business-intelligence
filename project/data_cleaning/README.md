@@ -160,6 +160,31 @@ cancel_map = {
 - inconsistency: fixed 2400 values to 0000
 - renamed `ARR_TIME` to `ACTUAL_ARR_TIME` and `ARR_HOUR` to `ACTUAL_ARR_HOUR`
 
+## 31. ARR_DELAY
+- converted to int
+- filled missing values:
+    - for the cancelled flights: filled with 9999 as same placeholder as `dep_delay`
+    - for the non-cancelled flights but not diverted: applied the formula `delay = actual - scheduled`
+    - for the non-cancelled flights but diverted: filled with 9999 because they did not land.
+
+## 32. ARR_DELAY_NEW
+- dropped like `DEP_DELAY_NEW`. same reasoning.
+
+## 33. ARR_DEL15
+- filled missing values: 
+    - cancelled flights were missing - filled with -1 as 0 indicated less than 15 min and 1 indicated more than 15min. so -1 indicates cancelled.
+    - mapped the other missing according to their delay, if delay == 9999, then -1 (diverted), if delay <15, 0, if delay >15 but <9999, then 1.
+- mapped the column to 
+```
+cancel_map = {
+    0.0: 'Less than 15',
+    1.0: 'Greater than 15',
+    -1.0: 'Cancelled'
+}
+```
+- datatype to string
+- renamed col to `ARR_DELAY_15_MIN`
+
 ## 43. CARRIER_DELAY
 - filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
 - converted to int

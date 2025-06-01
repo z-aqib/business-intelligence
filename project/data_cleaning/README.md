@@ -214,6 +214,15 @@ cancel_map = {
 ```
 - converted to string
 
+## 38. CRS_ELAPSED_TIME
+- filled missing values: filled with formula `elapsed = arr - time` for scheduled, by converting to minutes and then finding elapsed time.
+- converted to int
+- renamed to `SCHEDULED_ELAPSED_TIME`
+
+## 39. ACTUAL_ELAPSED_TIME
+- filled missing values: filled with formula `elapsed = arr - time` for actual, by converting to minutes and then finding elapsed time.
+- converted to int
+
 ## 43. CARRIER_DELAY
 - filled missing values: filled cancelled flights with -1, and remaining with 0 (to signify no delay)
 - converted to int

@@ -1,2 +1,5 @@
 # Activites
 this folder contains each of my in class marked activities.
+
+## Activity 01 - Spot the BI
+This Business Intelligence Activity 1, completed by Farah Inayat, Hamna Inam Abro, Zehra Ahmed, and Zuha Aqib, explored how modern e-commerce platforms like Foodpanda and Saya Clothing use BI tools to enhance customer experience, optimize operations, and drive sales. The team identified features such as personalized recommendations, dynamic pricing, real-time inventory tracking, and customer behavior analysis. Compared to traditional retail, these BI-powered platforms offer faster, smarter, and more personalized shopping experiences. The assignment also reflected on how these systems determine when to send notifications, what data they collect, and how they adjust prices dynamically—all contributing to increased efficiency, higher sales, and stronger customer retention.

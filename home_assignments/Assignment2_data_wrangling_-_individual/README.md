@@ -7,21 +7,15 @@
 **Section:** M/W 10AM – Miss Abeera Tariq     
 **Date:** 28th March 2025
 
----
-
 ## Objective
 
 The goal of this assignment was to demonstrate proficiency in data wrangling, cleaning, and exploratory data analysis (EDA) using Python. The task also included handling inconsistencies, treating missing values, performing statistical tests, and optionally creating a reusable API for future data cleaning and analysis workflows. The dataset chosen was related to healthcare, involving patient admission details, billing, and medical records.
-
----
 
 ## Dataset
 
 **Dataset Used:** `Healthcare.csv`
 **Source:** Provided via course-approved dataset link
 **Context:** The dataset contains synthetic healthcare records including patient demographics, billing information, medical conditions, room details, admission/discharge dates, insurance, and test results.
-
----
 
 ## Assignment Requirements
 
@@ -47,8 +41,6 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 7. **Bonus Task (Optional)** – Develop reusable Python API functions for EDA and data cleaning.
 8. **AI Usage Disclosure** – Clearly mark where any AI assistance was used.
 
----
-
 ## What Was Done
 
 ### Data Cleaning & Inconsistencies
@@ -66,8 +58,6 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
   * Ensured Billing and Tax Amounts were within logical thresholds
   * Validated Admission and Discharge Dates using `datetime`
 
----
-
 ### Missing Value Handling
 
 * **Gender:** Corrected manually using name-based logic
@@ -77,8 +67,6 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 * **Room Number:** Imputed based on most frequent room number given to others with the same insurance provider
 
 **Tools Used:** `missingno` for visual diagnostics (matrix, bar, heatmap, dendrogram)
-
----
 
 ### Univariate Analysis
 
@@ -96,8 +84,6 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
     * Most admissions were elective or emergency
     * Higher number of abnormal test results suggests critical patient base
 
----
-
 ### Bivariate & Multivariate Analysis
 
 * **Numerical vs. Numerical:**
@@ -112,8 +98,6 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 * **Categorical vs. Categorical:**
 
   * Chi-squared tests showed no statistically significant associations between categories (e.g., Gender vs. Test Results)
-
----
 
 ## API Development (Bonus Task)
 
@@ -130,8 +114,6 @@ Several reusable functions were created to streamline data wrangling and EDA:
 
   * `api_view_outliers()`, `api_numerical_vs_numerical()`, `api_numerical_vs_categorical()`, `api_categorical_vs_categorical()`
 
----
-
 ## Final Results & Insights
 
 * The dataset was successfully cleaned, missing values handled, and all inconsistencies corrected.
@@ -140,13 +122,9 @@ Several reusable functions were created to streamline data wrangling and EDA:
 * The API functions developed will help in future EDA and cleaning projects, ensuring consistency and speed.
 * The cleaned dataset was saved as `Healthcare_cleaned.csv`.
 
----
-
 ## AI Usage
 
 Minimal AI usage was applied. ChatGPT was consulted to help structure some API functions and generate example plot code for Tasks 5 & 6. All interpretation, strategy, and logic for Tasks 3 and 4 were done independently.
-
----
 
 ## Submission Contents
 

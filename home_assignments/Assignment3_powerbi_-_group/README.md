@@ -10,13 +10,9 @@
 
 **Date:** 9th May 2025
 
----
-
 ## Objective
 
 The goal of this assignment was to use Power BI to analyze a rich dataset of high school student performance. The analysis aimed to explore how demographic factors, study habits, and extracurricular activities influence GPA, attendance, and grade outcomes. Through interactive dashboards and visual storytelling, the project seeks to assist academic institutions in making data-driven decisions to improve student success and engagement.
-
----
 
 ## About the Dataset
 
@@ -29,8 +25,6 @@ The dataset includes records for **2,392 students**, capturing detailed informat
 
 All data was verified for quality and consistency. No missing values were found, and proper data types were confirmed (e.g., categorical vs. numeric). Custom mappings were used to make fields more readable (e.g., 0 → Male, 1 → Female) and GPA scores were translated into standard letter grades.
 
----
-
 ## Problem Statement
 
 The key objective was to analyze how different factors affect student outcomes. Specifically:
@@ -41,8 +35,6 @@ The key objective was to analyze how different factors affect student outcomes. 
 * Are there demographic trends in grades and performance?
 * Can we build a drill-down view for personalized insights?
 
----
-
 ## Data Preparation Steps
 
 * **Verified Data Types:** Ensured GPA, age, test scores, and absences were numerical; others were categorical.
@@ -50,8 +42,6 @@ The key objective was to analyze how different factors affect student outcomes. 
 * **Profiled the Dataset:** Used `describe()` to understand GPA distribution, test scores, and category frequencies.
 * **Created Grade Categories:** Mapped GPA to A–F labels for easier interpretation.
 * **Cleaned Categorical Values:** Converted binary and encoded fields (e.g., 0/1 for gender, ECA) to human-readable labels.
-
----
 
 ## Power BI Report Structure
 
@@ -102,8 +92,6 @@ The Power BI report was divided into four comprehensive pages:
   * **Participation in ECAs, tutoring, and parental support**
 * Example Insight: One student had a GPA of 2.56, studied 3 hours/week, and was active in sports and other ECAs.
 
----
-
 ## Key Findings
 
 * **GPA Trends:** Average GPA across students was **1.91**. GPA increased when students had both **tutoring and parental support**.
@@ -112,8 +100,6 @@ The Power BI report was divided into four comprehensive pages:
 * **Extracurricular Influence:** ECAs positively influenced academic outcomes; however, volunteering showed no major impact on GPA.
 * **Demographic Balance:** Gender distribution was balanced, with slightly more female students. Caucasian students formed 50% of the dataset.
 * **Study Effort:** Average study time was 9–10 hours per week, with GPA and study time following similar quarterly trends.
-
----
 
 ## Interactive Features
 
@@ -126,8 +112,6 @@ The Power BI report was divided into four comprehensive pages:
   * ECA Participation
 * **Drill-down reports** allowed deep dives into monthly and quarterly trends.
 
----
-
 ## Visual Highlights
 
 * **Ribbon charts** to show grade distributions across ethnicities and class levels.
@@ -136,8 +120,6 @@ The Power BI report was divided into four comprehensive pages:
 * **Treemaps** and **funnel charts** to show parental support and ECA hierarchy.
 * **Donut charts** to show participation breakdowns (e.g., Music vs. No Music).
 * **Line graphs** for trend tracking over time.
-
----
 
 ## Conclusion
 

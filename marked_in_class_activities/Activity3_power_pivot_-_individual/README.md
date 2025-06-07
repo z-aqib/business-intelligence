@@ -7,13 +7,9 @@
 
 * Zuha Aqib (ERP: 26106)
 
----
-
 ## Objective
 
 This activity focused on using **Power Pivot** in Microsoft Excel to build a data model, create relationships between multiple tables, define measures and KPIs using DAX (Data Analysis Expressions), and perform basic analytical tasks. The goal was to demonstrate how Power Pivot enhances Excel’s analytical capabilities for business intelligence tasks—enabling fast, efficient, and dynamic data analysis across connected datasets.
-
----
 
 ## File Overview
 
@@ -24,8 +20,6 @@ The uploaded file: `power_pivot_activity.xlsx` contains:
 * Calculated columns and DAX measures
 * KPIs based on performance metrics
 * PivotTables and charts to visualize insights
-
----
 
 ## Activity Overview
 
@@ -71,8 +65,6 @@ The uploaded file: `power_pivot_activity.xlsx` contains:
      * Time (Month/Quarter/Year)
      * Customer Segments
 
----
-
 ## Key Analysis Highlights
 
 * **Profit by Product Category:** Identified which product lines were most and least profitable.
@@ -80,8 +72,6 @@ The uploaded file: `power_pivot_activity.xlsx` contains:
 * **Customer Segmentation:** Compared sales and profits across different customer groups.
 * **KPI Tracking:** Evaluated actual performance against targets using KPI indicators.
 * **Top Performers:** Pinpointed top-selling products and highest-revenue customers.
-
----
 
 ## Tools & Skills Demonstrated
 
@@ -91,8 +81,6 @@ The uploaded file: `power_pivot_activity.xlsx` contains:
 * PivotTable filtering and slicing
 * KPI creation and threshold logic
 * Business Intelligence reporting in Excel
-
----
 
 ## Conclusion
 

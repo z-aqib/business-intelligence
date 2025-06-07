@@ -6,8 +6,6 @@
 * Zara Masood (26928)
 * Zuha Aqib (26106)
 
----
-
 ## Table of Contents
 
 1. [Introduction & Dataset](#introduction--dataset)
@@ -21,8 +19,6 @@
 5. [Summary of Results](#summary-of-results)
 6. [Business Recommendations](#business-recommendations)
 
----
-
 ## Introduction & Dataset
 
 **Requirement:**
@@ -30,8 +26,6 @@ The assignment required us to analyze a selected dataset to apply OLAP cube conc
 
 **Dataset:**
 We used the [Customer Analytics dataset from Kaggle](https://www.kaggle.com/datasets/prachi13/customer-analytics), which contains customer shipment data including warehouse info, shipment mode, customer interactions, product details, and delivery performance.
-
----
 
 ## Data Understanding
 
@@ -51,8 +45,6 @@ The dataset includes the following key columns:
 | Discount\_offered      | Discount percentage on product                           |
 | Weight\_in\_gms        | Weight of product in grams                               |
 | Reached.on.Time\_Y.N   | Target variable: 1 = late delivery, 0 = on-time delivery |
-
----
 
 ## Facts, Dimensions, and Useless Variables
 
@@ -79,8 +71,6 @@ Categorical variables used to slice data:
 
 * ID (unique row identifier, no analytical value)
 
----
-
 ## Business Problems & Analysis
 
 ### Business Problem #1: Customer Retention (Hamna Inam Abro)
@@ -101,8 +91,6 @@ Understand customer behavior and factors influencing long-term engagement and re
 * Silent disengagement makes churn detection difficult.
 * Discounts delay churn but don’t prevent it long-term.
 
----
-
 ### Business Problem #2: Shipping & Warehouse Optimization (Zara Masood)
 
 **Problem:**
@@ -119,8 +107,6 @@ Identify the best performing warehouse block and shipment mode to optimize on-ti
 * Prioritize “Ship” for low-importance and medium-importance products.
 * Warehouse F’s operational practices could be a benchmark for others.
 * Discounts are effective in improving on-time delivery for medium-importance products.
-
----
 
 ### Business Problem #3: Shipping Mode Effectiveness (Zuha Aqib)
 
@@ -140,8 +126,6 @@ Analyze the usage and effectiveness of shipping modes and identify causes of del
 * Late deliveries harm the company’s reputation.
 * Need to investigate internal processes and logistics to improve overall shipment timeliness.
 
----
-
 ## Summary of Results
 
 | Problem Area                      | Key Finding                                                                   | Business Impact                                     |
@@ -149,8 +133,6 @@ Analyze the usage and effectiveness of shipping modes and identify causes of del
 | Customer Retention                | Engagement drops after 3-6 purchases; late deliveries are major churn reasons | Need for improved delivery and proactive engagement |
 | Shipping & Warehouse Optimization | “Ship” mode and Warehouse F excel in on-time deliveries                       | Focus on shipping mode and warehouse best practices |
 | Shipping Mode Effectiveness       | “Ship” mode most used but 60% shipments late                                  | Urgent need to improve “Ship” reliability           |
-
----
 
 ## Business Recommendations
 

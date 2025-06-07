@@ -5,8 +5,6 @@ my team members were: Zehra, Farah & I.
 
 our project was a travel management system for users and vendors. 
 
----
-
 # Business Intelligence
 
 **Activity 02: From Database to Data Warehouse (DB to DWH)**
@@ -20,13 +18,9 @@ our project was a travel management system for users and vendors.
 * Farah Inayat (ERP: 26912)
 * Zuha Aqib (ERP: 26106)
 
----
-
 ## Objective
 
 The purpose of this activity was to transition a transactional database system into a dimensional data warehouse using a **star schema**. The focus was to identify a core business process within an existing database project and design a data mart suitable for analytical purposes. This involved defining the business grain, selecting appropriate facts and dimensions, and building a star schema structure that supports meaningful business intelligence insights.
-
----
 
 ## Project Background
 
@@ -43,15 +37,11 @@ The TMS was designed to manage travel bookings, payments, vendor collaboration, 
 
 This transactional system ensures data integrity and operational smoothness by handling business rules such as payment status, dynamic pricing, booking deadlines, and cancellation policies.
 
----
-
 ## Task Overview
 
 ### Task 1: Review the Database Project
 
 A comprehensive summary of the **Travel Management System** was prepared, reviewing key entities such as `Customers`, `Bookings`, `Payments`, `Packages`, and `Feedback`. The project ensured structured booking and payment processing with automated validations and real-time updates.
-
----
 
 ### Task 2: Identify the Business Process
 
@@ -67,16 +57,12 @@ This process was selected because it produces the most critical and voluminous t
 
 This workflow is central to business operations and provides valuable insights for **revenue forecasting, customer behavior, vendor performance, and seasonal trends**, making it ideal for a **data mart**.
 
----
-
 ### Task 3: Specify the Grain
 
 **Grain (Level of Detail):**
 Each row in the fact table represents **a single individual traveler** per booking.
 
 > For example, if a family booking includes 5 members, the fact table will have 5 rows—**one for each person**. This atomic level of detail enables precise analysis on customer spending, travel frequency, and booking behavior.
-
----
 
 ### Task 4: Facts & Dimensions
 
@@ -96,8 +82,6 @@ A combination of facts (numerical values for analysis) and dimensions (descripti
 | **Commission Earned** | Fact                   | Commission collected by admin        | Assesses profitability and admin earnings             |
 | **Average Spending**  | Fact (running average) | Average amount spent by the customer | Guides pricing and marketing strategies               |
 
----
-
 ### Task 5: Star Schema Design
 
 The final deliverable was a **star schema**, representing a dimensional model ideal for querying and BI applications. The schema includes:
@@ -113,8 +97,6 @@ The final deliverable was a **star schema**, representing a dimensional model id
 
 Relationships were clearly defined using **primary (PK)** and **foreign keys (FK)**, with cardinalities designed for optimized performance in OLAP-style queries.
 
----
-
 ## Business Intelligence Value
 
 By converting the transactional database into a dimensional data warehouse:
@@ -125,8 +107,6 @@ By converting the transactional database into a dimensional data warehouse:
 * Seasonal booking trends can be analyzed for **marketing and vendor planning**.
 * Admins can evaluate **vendor performance and package popularity**.
 * Alerts for **fraud detection or unusual payment patterns** can be created.
-
----
 
 ## Conclusion
 

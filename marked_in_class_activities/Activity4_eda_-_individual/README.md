@@ -5,13 +5,9 @@
 **Student:** Zuha Aqib (ERP: 26106)    
 **Section:** 10AM   
 
----
-
 ## Objective
 
 This activity was designed to practice **statistical hypothesis testing** and data analysis using Python. The original goal was to explore how various categorical features (like ship mode or product type) impact numerical business metrics such as **Sales** and **Profit**, using statistical methods like **ANOVA**, **Tukey's HSD**, **Chi-Square tests**, and **t-tests**.
-
----
 
 ## What Was Given
 
@@ -31,8 +27,6 @@ The script was static and somewhat limited in scope. It did not:
 * Clean or format Tukey outputs for easier interpretation.
 * Provide any correlation heatmap or grouped insights.
 
----
-
 ## What I Did Differently
 
 Here’s a summary of the enhancements I made to the analysis:
@@ -43,8 +37,6 @@ Here’s a summary of the enhancements I made to the analysis:
 * **Why:** To find out which variables significantly influence profit in addition to sales.
 * **Impact:** Identified `Order Priority`, `Product Category`, `Sub-Category`, and `Product Container` as significant factors affecting profit.
 
----
-
 ### 2. Dynamic Tukey Test Function
 
 * **Change:** Created a reusable function `apply_tukey()` for running Tukey's HSD test.
@@ -54,23 +46,17 @@ Here’s a summary of the enhancements I made to the analysis:
   * Significant pairs (where null hypothesis was rejected).
   * Non-significant pairs.
 
----
-
 ### 3. Full Chi-Square Grid Across Categorical Pairs
 
 * **Change:** Used nested loops (`itertools.combinations`) to perform Chi-square tests on **all pairs** of categorical variables.
 * **Why:** To discover **any hidden relationships** between groupings (e.g., Customer Segment vs Region).
 * **Improvement:** Results were stored in a DataFrame and displayed as a summary with p-values and interpretations.
 
----
-
 ### 4. Cleaned and Properly Interpreted t-Tests
 
 * **Change:** Identified columns with NaNs and filled them with zeroes to prevent the t-test from breaking.
 * **Adjustment:** Focused on meaningful comparisons (e.g., Sales vs Profit), while acknowledging limitations.
 * **Insight:** Added explanation that t-tests may not be ideal when comparing continuous variables like sales and profit—**correlation** is more appropriate.
-
----
 
 ### 5. Added Correlation Heatmap
 
@@ -83,14 +69,10 @@ Here’s a summary of the enhancements I made to the analysis:
   * High Negative (< -0.5)
   * Medium Negative (-0.3 to -0.5)
 
----
-
 ### 6. Warnings Handling
 
 * **Added:** A small script to suppress common warnings (future, runtime, user).
 * **Reason:** To keep output clean during iterative analysis.
-
----
 
 ## Summary of Key Results
 
@@ -103,8 +85,6 @@ Here’s a summary of the enhancements I made to the analysis:
   * Moderate correlation between **Profit and Shipping Cost**.
 * **T-Test Insight:** Not the best method for comparing Sales and Profit directly due to data type compatibility; correlation is more suitable.
 
----
-
 ## Skills Demonstrated
 
 * ANOVA modeling with `statsmodels`
@@ -113,8 +93,6 @@ Here’s a summary of the enhancements I made to the analysis:
 * Advanced use of `scipy`, `statsmodels`, `seaborn`, and `matplotlib`
 * Data wrangling and handling of NaNs
 * Interpretation of p-values and statistical conclusions
-
----
 
 ## Conclusion
 

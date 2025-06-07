@@ -5,8 +5,6 @@ my team members were: Zehra, Farah Hamna & I.
 
 the two shops we selected were Foodpanda and Saya. 
 
----
-
 # Business Intelligence
 
 **Activity 01: Spot the BI**
@@ -20,13 +18,9 @@ the two shops we selected were Foodpanda and Saya.
 * Zehra Ahmed (ERP: 26965)
 * Zuha Aqib (ERP: 26106)
 
----
-
 ## Objective
 
 This activity aimed to help students identify and analyze the application of **Business Intelligence (BI)** in real-world e-commerce platforms. Students were required to explore two different online businesses—**Foodpanda** (a food delivery app) and **Saya Clothing** (a fashion e-commerce store with physical presence)—to understand how BI tools are used to personalize customer experiences, optimize operations, and drive business decisions.
-
----
 
 ## Task Overview
 
@@ -50,8 +44,6 @@ Students compared BI-enabled features of online stores with the traditional shop
 ### **Task 3: Critical Reflection**
 
 Teams reflected on how these systems know when to send notifications, what kind of data is collected, why prices change dynamically, and how recommendations are personalized.
-
----
 
 ## Case Study 1: **Foodpanda**
 
@@ -85,8 +77,6 @@ Teams reflected on how these systems know when to send notifications, what kind 
 ### Key Insights:
 
 Foodpanda uses BI to enhance customer engagement, reduce churn, drive upselling, and optimize delivery and restaurant operations.
-
----
 
 ## Case Study 2: **Saya Clothing**
 
@@ -130,8 +120,6 @@ Foodpanda uses BI to enhance customer engagement, reduce churn, drive upselling,
 
 Saya’s BI systems provide a personalized, seamless, and efficient shopping experience while also improving inventory and marketing efficiency.
 
----
-
 ## Comparison with Traditional Retail
 
 **Traditional Shopping vs. BI-Powered E-Commerce:**
@@ -148,8 +136,6 @@ Saya’s BI systems provide a personalized, seamless, and efficient shopping exp
 
 **Key Differences:**
 E-commerce platforms use real-time data, AI, and BI tools to provide faster, more efficient, and personalized customer journeys that are not possible in traditional setups.
-
----
 
 ## BI Reflection (Task 3)
 
@@ -185,8 +171,6 @@ Dynamic pricing is based on:
 * Competition (e.g., price drops from other brands)
 * Stock levels and user behavior
 
----
-
 ## Benefits of Business Intelligence (BI)
 
 BI systems lead to:
@@ -197,8 +181,6 @@ BI systems lead to:
 * Targeted promotions and reduced marketing costs
 * Less inventory waste and fewer stockouts
 * Faster, data-driven decisions
-
----
 
 ## Conclusion
 

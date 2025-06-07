@@ -15,3 +15,6 @@ This enhanced statistical analysis activity, completed by Zuha Aqib (ERP: 26106)
 
 ## Activity 05 - Empathy Map
 In this activity paired with Zuha and Zainab, they had to fill an empathy map by discussing any problem they were facing with their peer.
+
+## Activity 06 - Tableau
+In this Tableau activity, Zuha Aqib and Kisa Fatima explored a new business problem using their Assignment 01 dataset by analyzing how discounts, product importance, shipment modes, and customer behavior interact. The story revealed that low and medium importance products dominate sales and are mostly shipped via the "Ship" mode, which also has the highest on-time delivery rate. It was found that cheaper products receive higher percentage discounts, while expensive ones get less. Most customers had already made 2–3 purchases, showing good retention. Overall, the Tableau visuals helped uncover key patterns in discount strategy, shipping efficiency, and customer loyalty.

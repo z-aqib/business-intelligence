@@ -12,3 +12,6 @@ This Power Pivot activity, completed by Zuha Aqib (ERP: 26106), involved buildin
 
 ## Activity 04 - EDA
 This enhanced statistical analysis activity, completed by Zuha Aqib (ERP: 26106), expanded upon the original class-provided script by adding deeper insights and improved functionality. While the original focused only on basic ANOVA and limited tests on Sales, this version extended the analysis to include Profit, introduced a reusable Tukey test function, performed Chi-square tests across all categorical variable pairs, and added a correlation heatmap for numeric relationships. Data wrangling steps were included to handle missing values, and results were clearly categorized and interpreted. These improvements made the analysis more comprehensive, automated, and insightful for understanding key business drivers in the sales dataset.
+
+## Activity 05 - Empathy Map
+In this activity paired with Zuha and Zainab, they had to fill an empathy map by discussing any problem they were facing with their peer.

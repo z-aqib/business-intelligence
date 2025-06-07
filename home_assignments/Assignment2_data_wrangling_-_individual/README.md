@@ -3,19 +3,19 @@
 **Assignment 02: Data Wrangling and Exploratory Data Analysis (EDA)**
 
 **Submitted by:**
-**Zuha Aqib (ERP: 26106)**
-**Section:** M/W 10AM – Miss Abeera Tariq
+**Zuha Aqib (ERP: 26106)**     
+**Section:** M/W 10AM – Miss Abeera Tariq     
 **Date:** 28th March 2025
 
 ---
 
-## 📌 Objective
+## Objective
 
 The goal of this assignment was to demonstrate proficiency in data wrangling, cleaning, and exploratory data analysis (EDA) using Python. The task also included handling inconsistencies, treating missing values, performing statistical tests, and optionally creating a reusable API for future data cleaning and analysis workflows. The dataset chosen was related to healthcare, involving patient admission details, billing, and medical records.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 **Dataset Used:** `Healthcare.csv`
 **Source:** Provided via course-approved dataset link
@@ -23,9 +23,9 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 
 ---
 
-## ✅ Assignment Requirements
+## Assignment Requirements
 
-### 🔹 Task Breakdown
+### Task Breakdown
 
 1. **Dataset Selection** – Choose a relevant dataset from a provided list.
 2. **Data Familiarization** – Understand the dataset structure and context.
@@ -49,9 +49,9 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 
 ---
 
-## 🔧 What Was Done
+## What Was Done
 
-### 🧹 Data Cleaning & Inconsistencies
+### Data Cleaning & Inconsistencies
 
 * **Column Name Fixes:** Special characters removed, renamed columns (e.g., '?Name' → 'Name').
 * **Name & Gender Check:** Title-based gender correction using logical mapping (`Mr.` → Male, etc.).
@@ -68,7 +68,7 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 
 ---
 
-### 🔍 Missing Value Handling
+### Missing Value Handling
 
 * **Gender:** Corrected manually using name-based logic
 * **Billing Amount:** Row dropped due to lack of approximation
@@ -80,7 +80,7 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 
 ---
 
-### 📊 Univariate Analysis
+### Univariate Analysis
 
 * **Numerical Columns Analyzed:** `Age`, `Billing Amount`, `TaxAmount`, `Room Number`
 
@@ -98,7 +98,7 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 
 ---
 
-### 🔁 Bivariate & Multivariate Analysis
+### Bivariate & Multivariate Analysis
 
 * **Numerical vs. Numerical:**
 
@@ -115,7 +115,7 @@ The goal of this assignment was to demonstrate proficiency in data wrangling, cl
 
 ---
 
-## 🧰 API Development (Bonus Task)
+## API Development (Bonus Task)
 
 Several reusable functions were created to streamline data wrangling and EDA:
 
@@ -132,7 +132,7 @@ Several reusable functions were created to streamline data wrangling and EDA:
 
 ---
 
-## 📌 Final Results & Insights
+## Final Results & Insights
 
 * The dataset was successfully cleaned, missing values handled, and all inconsistencies corrected.
 * Clear insights were derived about billing trends, admission patterns, and patient demographics.
@@ -142,14 +142,14 @@ Several reusable functions were created to streamline data wrangling and EDA:
 
 ---
 
-## 🤖 AI Usage
+## AI Usage
 
 Minimal AI usage was applied. ChatGPT was consulted to help structure some API functions and generate example plot code for Tasks 5 & 6. All interpretation, strategy, and logic for Tasks 3 and 4 were done independently.
 
 ---
 
-## 📝 Submission Contents
+## Submission Contents
 
-* `BI_A2_Zuha_Aqib_26106.py`: Main analysis script
+* `BI_A2_Zuha_Aqib_26106.ipynb`: Main analysis script
 * `Healthcare.csv`: Original dataset
 * `Healthcare_cleaned.csv`: Cleaned dataset after wrangling

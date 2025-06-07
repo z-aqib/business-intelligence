@@ -12,13 +12,13 @@
 
 ---
 
-## 📌 Objective
+## Objective
 
 The goal of this assignment was to use Power BI to analyze a rich dataset of high school student performance. The analysis aimed to explore how demographic factors, study habits, and extracurricular activities influence GPA, attendance, and grade outcomes. Through interactive dashboards and visual storytelling, the project seeks to assist academic institutions in making data-driven decisions to improve student success and engagement.
 
 ---
 
-## 📁 About the Dataset
+## About the Dataset
 
 The dataset includes records for **2,392 students**, capturing detailed information across four main areas:
 
@@ -31,7 +31,7 @@ All data was verified for quality and consistency. No missing values were found,
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 The key objective was to analyze how different factors affect student outcomes. Specifically:
 
@@ -43,7 +43,7 @@ The key objective was to analyze how different factors affect student outcomes. 
 
 ---
 
-## 🛠️ Data Preparation Steps
+## Data Preparation Steps
 
 * **Verified Data Types:** Ensured GPA, age, test scores, and absences were numerical; others were categorical.
 * **No Missing Data:** Verified using `df.isnull().sum()` – no imputation was required.
@@ -53,17 +53,21 @@ The key objective was to analyze how different factors affect student outcomes. 
 
 ---
 
-## 📊 Power BI Report Structure
+## Power BI Report Structure
 
 The Power BI report was divided into four comprehensive pages:
 
 ### 1. **Demographics Page**
+
+![Demographics Page](images/page1.png)
 
 * Visuals: Bar charts, funnel charts, ribbon and area charts.
 * Focus: Student breakdown by **gender**, **ethnicity**, **parental education**, and **absences**.
 * Key Insight: Female students had higher absence totals. Caucasian students formed the largest ethnic group.
 
 ### 2. **Study Habits Page**
+
+![Study Habits Page](images/page2.png)
 
 * Visuals: Line graphs, tornado charts, scatter plots, treemaps.
 * Focus: **Study time**, **tutoring**, **parental support**, and **GPA patterns**.
@@ -74,6 +78,8 @@ The Power BI report was divided into four comprehensive pages:
   * Parental support declines as students move to higher grades.
 
 ### 3. **Extracurricular Activities Page**
+
+![Extracurricular Activities Page](images/page3.png)
 
 * Visuals: Donut charts, tree diagrams, tornado charts, line charts.
 * Focus: Impact of **sports**, **music**, and **volunteering** on academic outcomes.
@@ -86,6 +92,8 @@ The Power BI report was divided into four comprehensive pages:
 
 ### 4. **Student Performance Page (Drill-through)**
 
+![Student Performance Page](images/page4.png)
+
 * Visuals: KPI cards, pie charts, funnel charts.
 * Function: Enables user to **select a student by ID** and view a full profile:
 
@@ -96,7 +104,7 @@ The Power BI report was divided into four comprehensive pages:
 
 ---
 
-## 📌 Key Findings
+## Key Findings
 
 * **GPA Trends:** Average GPA across students was **1.91**. GPA increased when students had both **tutoring and parental support**.
 * **Absences Impact:** Strong negative correlation between absences and GPA.
@@ -107,7 +115,7 @@ The Power BI report was divided into four comprehensive pages:
 
 ---
 
-## 🎛️ Interactive Features
+## Interactive Features
 
 * **Slicers across all pages** enabled users to filter by:
 
@@ -120,7 +128,7 @@ The Power BI report was divided into four comprehensive pages:
 
 ---
 
-## 📈 Visual Highlights
+## Visual Highlights
 
 * **Ribbon charts** to show grade distributions across ethnicities and class levels.
 * **Scatter plots** for correlation analysis (e.g., GPA vs. absences).
@@ -131,6 +139,6 @@ The Power BI report was divided into four comprehensive pages:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This Power BI project provided a holistic, interactive exploration of student academic performance. The dashboards enabled a multi-dimensional understanding of how study habits, demographic factors, and extracurricular engagement influence GPA and grades. The drill-through page adds personalized insights at the individual student level, making this dashboard a powerful tool for educators and administrators to identify at-risk students, allocate resources wisely, and support student development.

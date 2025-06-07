@@ -1,5 +1,9 @@
 # Business Intelligence Assignments
-this folder contains the assignments for the Business Intelligence course. Each assignment is a separate folder with its own `README` file. The assignments are as follows:
+this folder contains the assignments for the Business Intelligence course. 
+
+[Assignment Marks](https://docs.google.com/spreadsheets/d/1ROS8PsmJWzdq621rZk_Ag2Yo8LNBg2DsdShw7MTOIfk/edit?gid=0#gid=0)
+
+Each assignment is a separate folder with its own `README` file. The assignments are as follows:
 
 ## Assignment 1
 This Business Intelligence Assignment 1 on OLAP Cube was completed by group members Hamna Inam Abro, Zara Masood, and Zuha Aqib. The team analyzed a customer analytics dataset from Kaggle, focusing on shipment data, customer behavior, and delivery performance. They identified key facts and dimensions, then addressed three business problems: understanding customer retention challenges related to late deliveries and discounts; optimizing warehouse and shipping mode performance, highlighting Warehouse F and the “Ship” method as top performers; and evaluating the effectiveness and delays associated with different shipping modes. The analysis revealed that late deliveries drive customer disengagement, “Ship” mode is the most used yet has a high delay rate, and discounts only partially mitigate churn. Based on these insights, the team recommended targeted retention strategies, operational improvements in warehouses, and prioritizing shipment modes to enhance on-time delivery and customer satisfaction.

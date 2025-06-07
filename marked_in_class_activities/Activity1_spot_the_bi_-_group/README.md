@@ -30,7 +30,7 @@ This activity aimed to help students identify and analyze the application of **B
 
 ## Task Overview
 
-The assignment was divided into three key tasks:
+The activity was divided into three key tasks:
 
 ### **Task 1: Spot the BI Features**
 
@@ -202,4 +202,4 @@ BI systems lead to:
 
 ## Conclusion
 
-This assignment successfully demonstrated how real-world platforms like **Foodpanda** and **Saya Clothing** are powered by Business Intelligence to improve customer satisfaction, streamline operations, and drive business growth. The contrast with traditional retail further highlighted how data-driven decision-making gives modern platforms a competitive edge. The group’s analysis shows a solid understanding of how BI is integrated into digital commerce to enhance personalization, boost revenue, and build customer loyalty.
+This activity successfully demonstrated how real-world platforms like **Foodpanda** and **Saya Clothing** are powered by Business Intelligence to improve customer satisfaction, streamline operations, and drive business growth. The contrast with traditional retail further highlighted how data-driven decision-making gives modern platforms a competitive edge. The group’s analysis shows a solid understanding of how BI is integrated into digital commerce to enhance personalization, boost revenue, and build customer loyalty.

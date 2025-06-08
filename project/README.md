@@ -21,4 +21,4 @@ the work distribution was as follows: (REAL NO CAP)
 - farah: 1 dashboard + (half compiling) + drill through + demo video
 - kisa: design sprint work + 2 dashboards + report + data story
 
-it was ... stressful. the evaluators we had were
+it was ... stressful. the evaluators we had were Sameer (AKU) and someone i forgot. sameer was nice, he understood what we said and asked questions and said to fix the insights box at one place. and the other person was looking for something huge - we didnt have huge missing value changes or imputations so we couldnt satisfy him. he also didnt like the UI much.

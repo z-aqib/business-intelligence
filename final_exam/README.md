@@ -5,5 +5,7 @@ the final exam was conducted on thursday 29th may 2025 from 9:30am - 1:30pm in M
 
 it went well. my partner was Kisa for part-B and we worked together to make a great dashboard. we had to submit:
 - dashboard `.pbix`
+![Dashboard](images/dashboard.png)
 - report `.pdf`
 - handmade prototype `.jpg`
+![Prototype](images/prototype.jpg)
